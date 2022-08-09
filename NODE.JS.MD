@@ -1,4 +1,4 @@
-# NODE.JS interview question
+# NODE.JS interview question 👩‍💻
 
 ---
 
@@ -143,4 +143,65 @@
 
 ---
 
-vid 14 finish
+# What is an error-first callback in Node.js?
+
+- Error-First Callback in Node. js **is a function which either returns an error object or any successful data returned by the function**.
+
+- The first argument in the function is reserved for the error object. If any error has occurred during the execution of the function, it will be returned by the first argument.
+
+## img
+
+---
+
+# What is the purpose of module.exports?
+
+- Module exports are the instructions that tell Node. js which bits of code to export from a given file so that **other files are allowed to access the exported code**.
+
+# what's the difference between 'front-end' and 'back-end' developer?
+
+- ## Front-end
+  - use make up and web languages like HTML,CSS,JAVASCRIPT
+  - Based on asynchronous requests and AJAX.
+  - Batter Accessibility.
+  - clint side.
+  ## Bake-end
+  - Uses programming and scripting languages like python,Ruby,perl,etc.
+  - Based on server Architecture
+  - Enhanced Security.
+  - Used for Backup.
+
+# What do you understand by callback hell?
+
+- **A Callback is a function “A” that is passed to another function “B” as a parameter**.
+- The function “B” executes the code “A” at some point. The invocation of “A” can be immediate, as in a synchronous callback, or, it can occur later as in an asynchronous callback.
+
+# Explain the concept of middleware in Node.js?
+
+- Middleware is a function receives the request and responce Objects.
+- it update or modify the request and the response objects.
+
+# Explain the concept of URL module.
+
+- The URL modue is built-in module that helps in **splitting up the web address into a readable format**.
+
+# Why node.js use google V8 engine?
+
+- Google uses V8 as it is a chrome rentime engine that converts javaScript code into native machine code.
+- it speeds up the application exexecution and response Process and give you a fast running applicaton.
+
+# What do you understand by global in objects in Node.js?
+
+- Globals are the objects which are global in nature and are avilable in all the modules of the application.
+- The global objects can be modules, functions, strings, object,etc.
+
+# Wxplain the puropse of Expressjs package?
+
+- Expess.js is a framework built on top of node.js that faciltates the **management of the flow of data between server and routes in the server-dide application**.
+
+# Explain the reason as to why Express 'app' and 'server' must be kept separate.
+
+- Faster testing execution.
+- it allows testing the API in-process without having to perform the network calls.
+- Better Separation of conncerns and cleaner code.
+
+  - windown + . open emoji
