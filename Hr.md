@@ -33,6 +33,42 @@ Strong knowledge of OOPs, Operating Systems, DBMS, Computer Networks, and Softwa
 
 ---
 
+# 3 tell me something abt urself not manction in resume
+- **(Highlight your professional skills and interpersonal skill)**
+
+- There is certainly one thing that is not mentioned in my cv which is I am an active person. I get up early morning and meditate for half an hour which makes me active the whole day.
+
+- I always try to understand the situation from both micro and macro perspectives. this not only helps me to think outside the box but also makes me more flexible  and adaptable to word the situation.
+
+# 6)Have u organized any event in ur clg?(say yes)
+
+- Yes, I organized an Event. I am a member of the web eye club at my college. our group organized the web of war Event in the cultural fest and I am part of that event.
+
+# 7)why should we hire u?
+
+- “Over the years, I have acquired relevant skills and experience, which I shall bring to your organization.
+
+- Even though I am a fresher, I assure you that I will give my best and work to my full potential so that I can contribute as much as I can towards the growth and welfare of this great brand.”
+
+- On the other hand, I am a self-motivated person and I try to exceed my superior’s expectations with high-quality work.
+
+# 8) What are ur hobbies and why?
+
+- My hobbies is listen podcasts. 
+- **why** Because it Improves my communication skill Another great benefit of listening to podcasts is that you can learn new things.
+
+# 9)Where do u want to see urself after 5 yrs?
+
+- 5 years is a big period of time sir, people switch between jobs for better positions, money several other reasons. in my case I would like to find myself in a much much better position in this organization. It is this thing people say that no matter how good you are at your job you are always replaceable, I would like to become irreplaceable.
+
+- so, in short, next 5 years I see myself in a much bigger position in this organization.
+
+
+
+
+
+
+
 
 
 
