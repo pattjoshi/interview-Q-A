@@ -51,15 +51,37 @@ Basically why we are write coding ,to solve our real world problem right. In OOP
 - If a language is designed with the facilities specifically to support object-oriented programming having 4 features that is abstraction, encapsulation, inheritance, polymorphism then it is an Object-oriented programming language.
 -  It's the code that is object-oriented not the language.
 
+---
+# Piller of oops
+---
+# [What is class?]()
 
+- It is a basic concept of Object-Oriented Programming which revolve around the real-life entities. 
 
+- Class are a blueprint of Object.
 
+```
+class car {  
+    color;  
+    Model;  
+  }
+```
+# Structure vs class
 
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/78966839/212488323-65b4c801-26b9-4a08-8800-8c6dba7383d0.png">
 
+# Similarity between structure and class?
 
+- Both are container types, meaning that they contain other types as members.
+- Both have members, which can include constructors, methods, properties, fields, constants, enumerations, events, and event handlers.
+- Both can implement interfaces.
+- Both can have shared constructors, with or without parameters.
 
+- Both can expose a default property, provided that property takes at least one parameter.
 
-
+# when to use structure over class?
+- If the size of the instance is below 16 bytes.
+- Structures are preferred for object design for data storage like array.
 
 
 
