@@ -1,4 +1,4 @@
 # MERN_QUS
 
-REDME file update soon:) OKKKK
+REDME file update soon:) 
 
