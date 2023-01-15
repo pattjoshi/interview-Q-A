@@ -63,13 +63,22 @@ Strong knowledge of OOPs, Operating Systems, DBMS, Computer Networks, and Softwa
 
 - so, in short, next 5 years I see myself in a much bigger position in this organization.
 
+# 11) what is the worst challanged u faced in ur life and how u overcome it.
 
+- In third Year of Collage, One of the Biges dicision i made is, for me Keeping up with all the collage work and assignments that i have to submit.
+- for that i learned time management skill in which i sheduled my own time table for improving my skill.
 
+# 12)  Are u flexible and able to relocate.
 
+- For the right opportunity I am definitely willing to relocate. I believe that this position and company is that opportunity.
 
+# 14)what is strength and weakness?
 
+- **strength**
+- I think my greatest strength is i am a calm person. It's bring me new idea in my Mind and and I can get my work done even in the face of difficult obstacles.
 
-
+- **weakness**
+- My Biggest weakness is that i trust people very easily.Sometimes, it hurts me because i feel cheated, But many times,that habit helps me make good friends for life.
 
 
 
