@@ -163,6 +163,21 @@ Member functions are the functions, which have their declaration inside the clas
      - By clone() method of Object class
 
 
+# Can we have more then one constructer in a class
+
+- Yes, a class can have multiple constructors. These constructors can have different parameters, allowing for multiple ways to initialize an object of the class. They are often called "overloaded constructors."
+
+
+# [What is the destructor / garbage collector?](https://www.javatpoint.com/javadestructor#:~:text=What%20is%20the%20destructor%20in,memory%20occupied%20by%20the%20object.)
+
+- It is a special method that automatically gets called when an object is no longer used.
+
+- **there is no concept of destructor in Java.** In place of the destructor, Java provides the **garbage collector** that works the same as the destructor.
+
+-  When an object completes its life-cycle the garbage collector deletes that object and deallocates or releases the memory occupied by the object.
+
+
+
 
 
 
