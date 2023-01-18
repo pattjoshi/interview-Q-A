@@ -85,20 +85,82 @@ class car {
 
 # [Access Modifiers](https://www.javatpoint.com/access-modifiers)
 
-- The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class
+- The access modifiers in Java specifies the accessibility or scope of a method, constructor, or class
 
-- **Private:** The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+- **Private:** The access level of a private modifier is **only within the class.** It cannot be accessed from outside the class.
 
-- **Default:** The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+- **Default:** The access level of a default modifier is **only within the package.** It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
 
-- **Protected:** The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+- **Protected:** The access level of a protected modifier is within the **package and outside the package through child class.** If you do not make the child class, it cannot be accessed from outside the package.
 
-- **Public:** The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+- **Public:** The access level of a public modifier is **everywhere.** It can be accessed from within the class, outside the class, within the package and outside the package.
 
 <img width="530" alt="image" src="https://user-images.githubusercontent.com/78966839/213174782-7c86c83b-0441-4d4f-95c2-8f2858c98c49.png">
 
+# Member functions
 
+Member functions are the functions, which have their declaration inside the class definition and works on the data members of the class.
 
+- The definition of member functions can be inside or outside the definition of class.
+
+- If the member function is defined inside the class definition it can be defined directly, but if its defined outside the class, then we have to use the scope resolution :: operator along with class name alng with function name.
+
+# [Constructors](https://www.javatpoint.com/java-constructor)
+
+- A constructor in Java is a **special method**  that is invoked automatically at the time of object creation.
+
+- Note that the constructor name must match the class name, and it cannot have a return type (like void).
+
+## Rules for creating Java constructor
+
+- Constructor name must be the same as its class name
+- A Constructor must have no explicit return type
+- A Java constructor cannot be abstract, static, final, and synchronized
+
+# Default Constructor
+
+- A constructor is called "Default Constructor" when it doesn't have any parameter.
+
+- If there is no constructor in a class, compiler automatically creates a default constructor.
+
+### Q) What is the purpose of a default constructor?
+
+- The default constructor is used to provide the default values to the object like 0, null, etc., depending on the type.
+
+# Parameterized Constructor
+
+- A constructor which has a specific number of parameters is called a parameterized constructor.
+
+### Why use the parameterized constructor?
+
+- The parameterized constructor is used to provide different values to distinct objects. However, you can provide the same values also.
+
+# Constructor Overloading in Java
+
+- Constructor Overloading in Java **Same name but Different parameter**
+
+# How constructors are different from a normal member function?
+
+- A constructor is different from normal functions in following ways:
+
+- Constructor has same name as the class itself
+
+- Constructors don’t have return type
+
+- A constructor is automatically called when an object is created.
+
+- If we do not specify a constructor, C++ compiler generates a default constructor for us (expects no parameters and has an empty body).
+
+<img width="536" alt="image" src="https://user-images.githubusercontent.com/78966839/213197340-cdb9f691-9f9a-4706-9fe5-ae607d5f1bbc.png">
+
+# Java Copy Constructor
+- There is no copy constructor in Java. However, we can copy the values from one object to another like copy constructor in C++.
+
+- There are many ways to copy the values of one object into another in Java. They are:
+
+     - By constructor
+     - By assigning the values of one object into another
+     - By clone() method of Object class
 
 
 
