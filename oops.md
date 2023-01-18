@@ -177,6 +177,22 @@ Member functions are the functions, which have their declaration inside the clas
 -  When an object completes its life-cycle the garbage collector deletes that object and deallocates or releases the memory occupied by the object.
 
 
+# [What is an object in Java](https://www.javatpoint.com/object-and-class-in-java)
+
+- An object is a real-world entity.
+- An object is an instance of a class.
+- An object is a runtime entity.
+- The object is an entity which has state and behavior.
+- The object is an instance of a class.
+
+
+# [Difference between object and class](https://www.javatpoint.com/difference-between-object-and-class)
+
+<img width="531" alt="image" src="https://user-images.githubusercontent.com/78966839/213239852-f9157f9d-e532-434f-8113-2a82323e0079.png">
+
+
+
+
 
 
 
