@@ -117,9 +117,11 @@ Strong knowledge of OOPs, Operating Systems, DBMS, Computer Networks, and Softwa
 
 
 # 21)can u work under pressure?
+- **Chose 1**
 
 - Yes, I can work under pressure because I see it as a challenge and an opportunity to push myself to learn more and better my skills. And my ultimate goal is to develop mastery in achieving my objective.
 
-
+- Yes, I can Because according to me working under presser is nothing but a challenge. if we are open to learn new things it is easy to 
+work under pressure. i alwayse set new gols to my life and accept work with love if we love the work we won't feel it as pressure.
 
 
