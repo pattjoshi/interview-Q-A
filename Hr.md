@@ -80,6 +80,46 @@ Strong knowledge of OOPs, Operating Systems, DBMS, Computer Networks, and Softwa
 - **weakness**
 - My Biggest weakness is that i trust people very easily.Sometimes, it hurts me because i feel cheated, But many times,that habit helps me make good friends for life.
 
+\
+# 16)How would be u a asset to our company?
+
+- “Over the years, I have acquired relevant skills and experience, which I shall bring to your organization.
+
+- I assure you that I give 100 % best to the company through hard work and leadership skills. I think it will be a great asset to our company.
+
+
+# 17)Question to interviewr? (1 chose)
+
+- What are the skills and experiences you’re looking for in an ideal candidate?
+
+- Can you tell me more about the day-to-day responsibilities of the role?
+
+- Will there be opportunities for stretch assignments where I can learn and use new skills?
+
+# 18)how u feel about working at night and weekend.
+
+- - If the company needed I will definitely do it. Because it's my responsibility to provide whatever the company required from me. And as a fresher, it is also helpful to me to gain knowledge and  explore my skills for helping the growth of the organisation. But all the time it's quite difficult because it could cause mental health and physical health.
+
+
+# 19)if their is a conflict in ur team how should u reolve it ?
+
+- if their is a conflict in our team them
+- Speak to Team Members Individually. Start by having an informal one-on-one with each team member involved in the conflict.
+- Bring People Together.
+- Ask the Wider Team for Ideas. 
+- Draw up a Plan. 
+- Follow up.
+
+# 20)How do u handled situations when u r in stress ?
+
+- I am an organised person and i strictly work according to a time table. This hebit has realy helped me to increase my productivity level and complet 
+ my tesks well ahed of schedule. i strongly belive stressful situations are part of any job but it can be hendled if we are organised.
+
+
+# 21)can u work under pressure?
+
+- Yes, I can work under pressure because I see it as a challenge and an opportunity to push myself to learn more and better my skills. And my ultimate goal is to develop mastery in achieving my objective.
+
 
 
 
