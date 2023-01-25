@@ -194,6 +194,39 @@ Member functions are the functions, which have their declaration inside the clas
 # [Real Life Examples of Object Oriented Programming](https://www.c-sharpcorner.com/blogs/real-life-examples-of-object-oriented-programming1)
 
 
+# Important Keywords
+
+# [wat is the use of a static keyword](https://www.youth4work.com/Talent/Core-Java/Forum/119567-wat-is-the-use-of-a-static-keyword)
+
+- The static keyword belongs to the class than an instance of the class.
+- The static keyword in Java is used for memory management mainly.
+- The static can be:
+    1) Variable (also known as a class variable)
+    2) Method (also known as a class method)
+    3) Block
+    4) Nested class
+- static methods can be called without creating an object of the class.
+- A static variable is one that's associated with a class, not instance (object) of that class.
+- They are initialized only once , at the start of the execution .
+
+# What are virtual keywords?
+
+- The virtual keyword is used to modify a method, property, indexer, or event declaration and allow for it to be overridden in a derived class.
+
+- The virtual keyword is not used in Java.
+
+# [why virtual keyword is used](https://www.codeproject.com/Questions/270054/why-virtual-keyword-is-used)
+
+- Marking a method as virtual means you can override it in derived classes, but you don't have to.
+-  If you mark a method as abstract, you are subsequently forced by the compiler to override it in any derived classes.
+
+
+
+
+
+
+
+
 
 
 
