@@ -220,6 +220,60 @@ Member functions are the functions, which have their declaration inside the clas
 - Marking a method as virtual means you can override it in derived classes, but you don't have to.
 -  If you mark a method as abstract, you are subsequently forced by the compiler to override it in any derived classes.
 
+# [abstract keyword][https://www.tutorialspoint.com/abstract-keyword-in-Java]
+
+- 'abstract' keyword is used to declare the method or a class as abstract.
+
+- Abstract classes may or may not contain abstract methods, i.e., methods without a body ( public void get(); )
+
+- But, if a class has at least one abstract method, then the class must be declared abstract.
+
+- **If a class is declared abstract, it cannot be instantiated.**
+
+- To use an abstract class, you have to inherit it from another class, provide implementations for the abstract methods in it.
+
+- If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.
+
+# [Final Keyword](https://www.javatpoint.com/final-keyword)
+
+- The final keyword in java is **used to restrict the user.**
+- Final can be:
+    - variable
+    - method
+    - class
+- If we declare a variable as final then we can not change it value.
+- If we declare a method as final then we can not override it.
+- If we declare a class as final then we can not inherit it.
+
+# [this keyword](https://www.javatpoint.com/this-keyword)
+
+- this keyword. In Java,  **reference variable that refers to the current object.**
+
+<img width="440" alt="image" src="https://user-images.githubusercontent.com/78966839/214581793-c61eb397-18c0-47e5-8f99-53eb8b5d55a1.png">
+
+# [Java new Keyword](https://www.javatpoint.com/new-keyword-in-java)
+
+- It is used to create the object.
+- It allocates the memory at runtime.
+- All objects occupy memory in the heap area.
+- It invokes the object constructor.
+- It requires a single, postfix argument to call the constructor
+
+
+# [const keyword](https://stackoverflow.com/questions/7428358/why-const-keyword-is-not-used-in-java)
+- there is no concept of const keyword in java.
+- **why**     Java allows us to declare constants by using final keyword
+
+# [Super keyword](https://www.javatpoint.com/super-keyword)
+
+- super keyword in Java is a reference **refer immediate parent class object.**
+
+- super can be used to invoke immediate parent class method.
+
+- super() can be used to invoke immediate parent class constructor.
+
+
+
 
 
 
