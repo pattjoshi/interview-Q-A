@@ -220,7 +220,7 @@ Member functions are the functions, which have their declaration inside the clas
 - Marking a method as virtual means you can override it in derived classes, but you don't have to.
 -  If you mark a method as abstract, you are subsequently forced by the compiler to override it in any derived classes.
 
-# [abstract keyword][https://www.tutorialspoint.com/abstract-keyword-in-Java]
+# [abstract keyword](https://www.tutorialspoint.com/abstract-keyword-in-Java)
 
 - 'abstract' keyword is used to declare the method or a class as abstract.
 
@@ -272,9 +272,88 @@ Member functions are the functions, which have their declaration inside the clas
 
 - super() can be used to invoke immediate parent class constructor.
 
+# [Polymorphism](https://www.javatpoint.com/runtime-polymorphism-in-java)
 
+- it is a combinaton of 2 towd Poly and morphism 
+- Poly means :- many  and morphism :- forms = manyforms
+- whose meaning is **Same object having different behavior**
 
+- **Ex**:- let us consider i as an example, In my home, office and friend-circle i act as different. Hear,object is same that is  I but behaviour is different.
 
+- There are two types of polymorphism in Java: **compile-time polymorphism and runtime polymorphism**
+
+# Need
+
+- We can perform polymorphism in java by method overloading and method overriding.
+
+# Overloading
+
+- **having the same name but different in number  of parameter.**
+
+- we can overload:
+
+   - methods,
+  - constructors, and
+   - indexed properties
+
+# Compile-time polymorphism
+- Compile-time polymorphism is obtained through method overloading.
+
+- Since this process is executed during compile time, that's why it is known as Compile-Time Polymorphism.
+
+# Operators that cannot be overloaded in C++
+- In C++ we can overload some operators like +, -, [], -> etc. But we cannot overload any operators in it. Some of the operators cannot be overloaded. These operators are like below
+
+    - ? “.” Member access or dot operator
+    - ? “? : ” Ternary or conditional operator
+    - ? “::” Scope resolution operator
+    - ? “.*” Pointer to member operator
+    - ? “sizeof” The object size operator
+    - ? “typeid” Object type operator
+- These operators cannot be overloaded because if we overload them it will make serious programming issues.
+
+- For an example the sizeof operator returns the size of the object or datatype as an operand. This is evaluated by the compiler. It cannot be evaluated during runtime. So we cannot overload it.
+
+# [Overriding](https://www.javatpoint.com/method-overriding-in-java)
+
+- If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+- Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
+- Method overriding is used for runtime polymorphism
+
+# Functions that cannot be overloaded in C++
+1) Function declarations that differ only in the return type.
+2) Member function declarations with the same name and the name parameter-type-list cannot be overloaded if any of them is a static member function declaration.
+3) Parameter declarations that differ only in a pointer * versus an array [] are equivalent.
+4) Parameter declarations that differ only in that one is a function type and the other is a pointer to the same function type are equivalent. 
+5) Parameter declarations that differ only in the presence or absence of const and/or volatile are equivalent. That is, the const and volatile type-specifiers for each parameter type are ignored when determining which function is being declared, defined, or called.
+
+# [Runtime polymorphism](https://www.javatpoint.com/runtime-polymorphism-in-java)
+
+- Runtime polymorphism, also known as the Dynamic Method Dispatch, is a process that resolves a call to an overridden method at runtime. The process involves the use of the reference variable of a superclass to call for an overridden method
+
+## 9) What Does Derived Class Mean?
+- A derived class is a class created or derived from another existing class. The existing class from which the derived class is created through the process of inheritance is known as a base class or superclass.
+
+- Derived classes are used for augmenting the functionality of base class by adding or modifying the properties and methods to suit the requirements of the specialization necessary for derived class. This allows for defining virtual methods that form the means to implement polymorphism, which allows a group of objects to work in uniform manner. Thus, the inherent advantages of inheritance and polymorphism like code reuse, faster development, easy maintenance, etc., are realized.
+
+- A derived class is also known as subclass or child class.
+
+## 10) Can Virtual Functions be Private in C++?
+- A virtual function can be private as C++ has access control, but not visibility control. As mentioned virtual functions can be overridden by the derived class but under all circumstances will only be called within the base class.
+
+# [inline virtual functions](https://stackoverflow.com/questions/733737/are-inline-virtual-functions-really-a-non-sense)
+
+# Abstraction
+- A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract and non-abstract methods.
+- Abstraction in Java
+- Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+- Another way, it shows only essential things to the user and hides the internal details, for example, sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery.
+
+# Pure Virtual Functions
+- A pure virtual function (or abstract function) in C++ is a virtual function for which we can have implementation, But we must override that function in the derived class, otherwise the derived class will also become abstract class.
+- https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/
+
+# [pure virtual destructor](https://stackoverflow.com/questions/1219607/why-do-we-need-a-pure-virtual-destructor-in-c)
 
 
 
