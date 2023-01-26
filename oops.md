@@ -355,6 +355,97 @@ Member functions are the functions, which have their declaration inside the clas
 
 # [pure virtual destructor](https://stackoverflow.com/questions/1219607/why-do-we-need-a-pure-virtual-destructor-in-c)
 
+---
+
+# [Inheritence](https://www.javatpoint.com/inheritance-in-java)
+
+- Inheritance in Java is a mechanism in which **one object acquires all the properties and behaviors of a parent object.**
+
+- The idea behind inheritance in Java is that you can create **new classes that are built upon existing classes.**
+
+- Inheritance represents the **IS-A relationship** which is also known as a **parent-child relationship.**
+
+   - subclass (child) - the class that inherits from another class
+   - superclass (parent) - the class being inherited from
+
+
+## Sub Class/Child Class:
+- Subclass is a class which inherits the other class. 
+- It is also called a derived class, extended class, or child class.
+
+
+## Super Class/Parent Class:
+- Superclass is the class from where a subclass inherits the features. It is also called a base class or a parent class.
+
+## Reusability:
+- As the name specifies, reusability is a mechanism which facilitates you to reuse the fields and methods of the existing class when you create a new class. You can use the same fields and methods already defined in the previous class.
+
+
+# Why/ need of inheritance?
+- For Method Overriding (so runtime polymorphism can be achieved).
+- For Code Reusability.
+- Inheritance is used to declare characteristics of classes inheriting it,without giving its implementation.
+- It is one of the most important concept of OOPS.
+
+# can oop exist without inheritance?(NOT DONE)
+
+---
+# [Type of Inheritence](https://www.javatpoint.com/inheritance-in-java)
+
+## Single Inheritance
+
+- When a class inherits another class, it is known as a single inheritance.
+
+## Multilevel Inheritance
+
+- **includes the involvement of at least two or more than two classes**
+
+- When there is a chain of inheritance, it is known as multilevel inheritance. 
+
+## Hierarchical Inheritance
+
+- When **two or more classes inherits a single class,** it is known as hierarchical inheritance
+
+- Single Base class multiple Derive class.
+
+## Hybrid Inheritance
+
+- **hybrid inheritance is the composition of two or more types of inheritance.**
+
+## Multiple inheritence
+
+- In this type of inheritance a single sub class may inherit from two or more than two super classes.
+
+- **java dose not have Multiple inheritence.it have Interfaces.**
+
+# The Real world example of multiple inheritance
+- Imagine a Classes called as “MARUTI” and “SUZUKI” 
+- when both collab made a Child Car called as “Ertiga” .So Ertiga have characterstic of Maruti as well as Suzuki .
+- Child Class (Ertiga) acquared Properties of 2 Parent Classes / Or can say Inherit Properties from Multiple Parents so Its a Multiple Inheritance 
+
+# Limitation of inheritance?
+- The inheritance relationship is a, tightly coupled relationship , there will be tight bonding between parent and child. If we change code of parent class it will get affects to the all the child classes which is inheriting the parent code.
+
+## What is sealed modifier?
+- sealed is a keyword which is used to seal a class or function and prevent it to get inherited from any other classes.
+- In other words, a sealed class cannot be inherited. similarly function can't be used by the other class.
+
+## [How can we call a base/PARENT method without creating instance](https://stackoverflow.com/questions/10173827/how-to-invoke-parent-class-method-without-creating-object-of-it)
+
+
+# Why multiple inheritance is not supported in java?
+
+- To reduce the complexity and simplify the language, multiple inheritance is not supported in java
+
+- But we can achive multiple inheritance useing Interfaces.
+
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/78966839/214851829-60f36a54-5de2-44cc-b1a3-bf189acbe561.png">
+
+# [DIFFERENCE BETWEEN NEW AND OVERRIDE](https://stackoverflow.com/questions/6576206/what-is-the-difference-between-the-override-and-new-keywords-in-c)
+
+- The difference between override and new is that override extend the method of base class with new definition but new hides the method of base class.
+
+
 
 
 
