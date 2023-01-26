@@ -445,9 +445,17 @@ Member functions are the functions, which have their declaration inside the clas
 
 - The difference between override and new is that override extend the method of base class with new definition but new hides the method of base class.
 
+# [What all is inherited from parent class](https://www.geeksforgeeks.org/g-fact-4/)
 
+Following are the things that a derived class inherits from its parent. 
+1) Every data member that is defined in the parent class 
+2) Every ordinary member function of the parent class 
+3) The same initial data layout as of the base class. 
 
-
+Following are the properties which a derived class doesn’t inherit from its parent class : 
+1) The base class’s constructors and destructor. 
+2) The base class’s friend functions.
+3) Overloaded operators of the base class.
 
 
 
