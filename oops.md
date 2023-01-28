@@ -99,7 +99,7 @@ class car {
 
 # Member functions
 
-Member functions are the functions, which have their declaration inside the class definition and works on the data members of the class.
+Member functions are the functions, which have their **declaration inside the class** definition and works on the data members of the class.
 
 - The definition of member functions can be inside or outside the definition of class.
 
@@ -138,6 +138,10 @@ Member functions are the functions, which have their declaration inside the clas
 # Constructor Overloading in Java
 
 - Constructor Overloading in Java **Same name but Different parameter**
+
+- They are arranged in a way that each constructor performs a different task.
+
+- They are differentiated by the compiler by the number of parameters in the list and their types.
 
 # How constructors are different from a normal member function?
 
