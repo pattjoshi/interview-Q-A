@@ -149,7 +149,11 @@ My long-term goal is to gain knowledge day to day and be a successful person wit
 
 # what are ur acheivemtns in btech ?
 
-- 
+- My acheivemtns in btech I am a winner of web of war.
+- i learn Time managment skill.
+
+
+
 
 
 
