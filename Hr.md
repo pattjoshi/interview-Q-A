@@ -154,9 +154,40 @@ My long-term goal is to gain knowledge day to day and be a successful person wit
 
 # 26)Which subject is a worst subject in ur branch and how u tacle it.
 
-- I think there is no wrost subject related to my branch.Apart from that economics is a worst subject for me. BCZ i find economics concepts are difficult to relate to real-life situations.
+- I think there is no wrost subject related to my branch.Apart from that economics is a worst subject for me is economics. BCZ i find economics concepts are difficult to relate to real-life situations.
 
-- I tackle it by group studies, Try to relate economics concepts to real-life situations, Use visualization tools such as graphs and charts to help understand the concepts better.
+- **how u tacle it** I tackle it by group studies, Try to relate economics concepts to real-life situations, Use visualization tools such as graphs and charts to help understand the concepts better.
+
+
+# 27) WHich technolgy u used in ur project and why?
+
+- My project is related to froent Web development so i used technologies like HTML CSS JS,MERN
+- **Why**
+   1) HTML (Hypertext Markup Language) for creating the structure and content of a website
+   2) CSS (Cascading Style Sheets) for styling and layout
+   3) JavaScript for interactivity and dynamic
+   4) **React js** which is a library of javascript for  build reusable UI components and manage the state of their applications effectively.
+   5) **Node. js** is widely used for the back-end of applications,
+   6) **Express** is a node js web application framework that provides broad features for building web and mobile applications. It's a layer built on the top of the         Node.js that helps manage servers and routes.
+  
+# 28)How do u select ur project title and why.
+- I select my project title which is short and to the point, BCZ  it make easier for people to recall and recommend to others.
+    
+# 29)Are u extrovert or introvert.
+
+- I am an introvert person,
+- **I behave as per the requirement of the situation**. For e.g. If I am representing the company at an event which requires me to talk to a lot of people, I become an extrovert 
+
+
+# 32) Favorite subject in ur curriculam
+ 
+- Favorite subject in my curriculam  is DBMS. 
+
+
+
+
+
+
 
 
 
