@@ -176,6 +176,8 @@ Member functions are the functions, which have their **declaration inside the cl
 
 - It is a special method that automatically gets called when an object is no longer used.
 
+- In Java, when we create an object of the class it occupies some space in the memory (heap). If we do not delete these objects, it remains in the memory and occupies unnecessary space. To resolve this problem, we use the destructor.
+
 - **there is no concept of destructor in Java.** In place of the destructor, Java provides the **garbage collector** that works the same as the destructor.
 
 -  When an object completes its life-cycle the garbage collector deletes that object and deallocates or releases the memory occupied by the object.
