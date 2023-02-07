@@ -152,10 +152,11 @@ My long-term goal is to gain knowledge day to day and be a successful person wit
 - My acheivemtns in btech I am a winner of web of war.
 - i learn Time managment skill.
 
+# 26)Which subject is a worst subject in ur branch and how u tacle it.
 
+- I think there is no wrost subject related to my branch.Apart from that economics is a worst subject for me. BCZ i find economics concepts are difficult to relate to real-life situations.
 
-
-
+- I tackle it by group studies, Try to relate economics concepts to real-life situations, Use visualization tools such as graphs and charts to help understand the concepts better.
 
 
 
