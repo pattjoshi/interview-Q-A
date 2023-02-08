@@ -181,8 +181,42 @@ My long-term goal is to gain knowledge day to day and be a successful person wit
 
 # 32) Favorite subject in ur curriculam
  
-- Favorite subject in my curriculam  is DBMS. 
+- Favorite subject in my curriculam  is DBMS.BCZ it give the visualization of data flow.
 
+# 33)tell me abour ur internhsip and what did u learn (NOT DONE)
+
+# 34) why should we not hire you?
+
+- I believe that my company may not want to hire me if they are looking for someone with a specific set of skills or experience that I may not have. However, I am a quick learner and I am willing to take on new challenges to further develop my skills. I am confident that I can bring my strong work ethic, and positive attitude for the role and make a valuable contribution to the team.
+
+# 35)what movies/series u watched recently,give me a breif about it. 
+
+- MY recently watched movi is vikram,
+- A special agent investigates a murder committed by a masked group of serial killers. However, a tangled maze of clues soon leads him to the drug kingpin of Chennai.
+
+# 36)how do u manage ur project and what's ur role in it?
+
+ - I believe that effective project management is all about clear communication, planning. 
+- I start each project by setting clear goals and creating a detailed plan of action, breaking the project down into smaller, manageable tasks. 
+- I then assign responsibilities to team members based on their strengths and ensure that everyone has a clear understanding of their role. 
+-  As for my role, i handle the froentend part of project.
+
+
+# 37)what makes u happy or sad?
+
+- I do meditate and exercise on a regular basis which keeps me fit. Vacationing with my family and friends also makes me feel happy.
+
+- **sad** When someone takes me for granted, don't listen to me and points out my mistake even without knowing the truth.
+
+
+# 38) which programming language you like and why and also rate ur skills in 1-10.
+
+- [I like javaScript programming language,](https://www.geeksforgeeks.org/top-5-reasons-to-learn-javascript/)
+-  BCZ it's gives more dimension to tecknology like Web applications,Mobile Application,Blockchain Technology
+- i give rate self in javaScript in 7 out of 10.
+
+
+# 39)what are the leadership quality do u have ?
 
 
 
