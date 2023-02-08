@@ -242,11 +242,8 @@ Member functions are the functions, which have their **declaration inside the cl
 
 # [Final Keyword](https://www.javatpoint.com/final-keyword)
 
-- The final keyword in java is **used to restrict the user.**
-- Final can be:
-    - variable
-    - method
-    - class
+- The "final" keyword in Java is used to indicate that a variable, method, or class cannot be modified.
+
 - If we declare a variable as final then we can not change it value.
 - If we declare a method as final then we can not override it.
 - If we declare a class as final then we can not inherit it.
@@ -560,7 +557,10 @@ Following are the properties which a derived class doesn’t inherit from its pa
 - Sending object (Object A) knows which method of receiving object (Object B) is being called, so it knows more details than needed. With this, we create code which is not loosely coupled. Changes in one object will lead to changes in others too.
 
 
+# Can you explain the concept of exception handling in Java?
 
+
+# Can you explain the difference between a final, finally and finalize in Java?
 
 
 
