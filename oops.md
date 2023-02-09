@@ -573,3 +573,14 @@ Following are the properties which a derived class doesn’t inherit from its pa
 
 
 
+
+
+
+
+
+
+
+
+
+
+
