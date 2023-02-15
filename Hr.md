@@ -219,7 +219,27 @@ My long-term goal is to gain knowledge day to day and be a successful person wit
 # 39)what are the leadership quality do u have ?
 
 
+# 40) If you have more than one company in ur hand ,on what basis do u select ur company
 
+- When choosing between multiple companies, I prioritize the company culture and values. I look for a company that has a positive and collaborative work environment, with a focus on teamwork and employee engagement. Additionally, I prioritize opportunities for growth and development, such as training and mentorship programs. Lastly, I consider the compensation package and ensure it aligns with my expectations and salary requirements.
+
+# 41)How long years u worked for company  after we hired u ?
+
+# 42) Who Is your Favourite Teacher in your school ?
+
+# 43) Tell me abt ur family ?
+
+# 44)what do u do in ur free time?
+
+# 45)what do u learn from enggineering?
+
+# 46)Did you fail anytime ? What you learn from it ?
+
+# 47)Difference between Product based and Service based Companies ?
+
+# 48) who has inspired u in ur life and why?
+
+# 49)what are ur career and personal goal?
 
 
 
