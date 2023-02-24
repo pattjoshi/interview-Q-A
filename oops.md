@@ -559,10 +559,26 @@ Following are the properties which a derived class doesn’t inherit from its pa
 
 # Can you explain the concept of exception handling in Java?
 
+- Exception handling is a mechanism in Java that allows you to handle errors or exceptional situations that may occur during the execution of a program.
+-  In Java, an exception is an event that occurs during the execution of a program that disrupts the normal flow of the program's instructions.
+
+Exception handling in Java involves three main components:
+
+- **Try:** A try block contains the code that may throw an exception. You enclose the code that may throw an exception in a try block.
+
+- **Catch:** A catch block contains the code that handles the exception. If an exception occurs in the try block, the catch block is executed to handle the exception. 
+
+- **Finally:** A finally block contains code that is always executed.
+
 
 # Can you explain the difference between a final, finally and finalize in Java?
 
+- **final** is used to declare variables, methods, and classes  **value cannot be changed.**
 
+- **finally** is used in exception **handling to execute** code regardless of whether an exception occurs or not
+
+
+-  **finalize** is a method that can be overridden to perform cleanup operations before an object is garbage collected.
 
 
 
