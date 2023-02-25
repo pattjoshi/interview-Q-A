@@ -91,7 +91,7 @@ Back-end technologies(Node,Express.js)Database(MongoDB),Familiarity with code ve
 
 - “Over the years, I have acquired relevant skills and experience, which I shall bring to your organization.
 
-- I assure you that I give 100 % best to the company through hard work and leadership skills. I think it will be a great asset to our company.
+- I assure you that I give my best to the company and exceed my superior’s expectations through hard work and leadership skills. I think it will be a great asset to our company.
 
 
 # 17)Question to interviewr? (1 chose)
