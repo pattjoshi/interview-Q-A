@@ -689,6 +689,32 @@ Exception handling in Java involves three main components:
 - if error occer program will stop.if exception accer program will run but it may not give the expected O/P.
 
 
+# [Java Object finalize() Method](https://www.javatpoint.com/java-object-finalize-method)
+
+- Finalize() is the method of Object class. This method is called just before an object is garbage collected. finalize() method overrides to dispose system resources, perform clean-up activities and minimize memory leaks.
+
+# [What is a token?](https://www.geeksforgeeks.org/cc-tokens/)
+- A token is the smallest element of a program that is meaningful to the compiler.
+
+# [3 arguments of ternary operator](https://www.freecodecamp.org/news/c-ternary-operator/)
+
+- The ternary operator take three arguments:
+    - The first is a comparison argument
+    - The second is the result upon a true comparison
+    - The third is the result upon a false comparison
+
+# [concept of enum](https://www.geeksforgeeks.org/enumeration-enum-c/)
+- Enumeration (or enum) is a user defined data type in C. It is mainly used to assign names to integral constants, the names make a program easy to read and maintain.
+
+# [Singleton design pattern in Java](https://www.javatpoint.com/singleton-design-pattern-in-java)
+
+- Singleton Pattern says that just"define a class that has only one instance and provides a global point of access to it".
+- In other words, a class must ensure that only single instance should be created and single object can be used by all other classes.
+
+- There are two forms of singleton design pattern
+
+    - Early Instantiation: creation of instance at load time.
+    - Lazy Instantiation: creation of instance when required.
 
 
 
@@ -697,11 +723,29 @@ Exception handling in Java involves three main components:
 
 
 
+# [When should I use a struct instead of a class?](https://stackoverflow.com/questions/85553/when-should-i-use-a-struct-instead-of-a-class)
 
 
+- MSDN says that you should use structs when you need **lightweight objects**. Are there any other scenarios when a struct is preferable over a class?
+
+- Some people might have forgotten that:
+
+    - structs can have methods.
+    - structs cannot be inherited.
 
 
+# [Difference Between Cohesion and Coupling](https://stackoverflow.com/questions/3085285/difference-between-cohesion-and-coupling)
 
+- **Cohesion** refers to what the class (or module) can do. Low cohesion would mean that the class does a great variety of actions - it is broad, unfocused on what it should do. High cohesion means that the class is focused on what it should be doing, i.e. only methods relating to the intention of the class.
+
+
+- As for **coupling,** it refers to how related or dependent two classes/modules are toward each other. For low coupled classes, changing something major in one class should not affect the other. High coupling would make it difficult to change and maintain your code; since classes are closely knit together, making a change could require an entire system revamp.
+
+Good software design has high cohesion and low coupling.
+
+
+# Difference Between Cohesion and Coupling
+![image](https://user-images.githubusercontent.com/102239780/221342254-8112cdd5-d611-4651-9085-8190b052e67b.png)
 
 
 
