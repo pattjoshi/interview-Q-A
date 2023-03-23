@@ -1,0 +1,69 @@
+
+```
+CREATE DATABASE ORG;
+show DATABASES; -- SHOW HOW MENEY  PRESENT DATABASES -- 
+
+USE ORG; -- SWICHA to the current database  -- 
+
+CREATE TABLE Worker (
+   WORKER_ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   FIRST_NAME CHAR(25),
+   LAST_NAME CHAR(25),
+   SELARY INT(15),
+   JOINING_DATE DATETIME,
+   DEPARTMENT CHAR(25)
+);
+
+INSERT INTO Worker
+   (WORKER_ID, FIRST_NAME, LAST_NAME,SELARY, JOINING_DATE, DEPARTMENT) VALUES --  these are attribute -- 
+    
+      (001,'Om','Pattjoshi',1000000,'14-02-20 9.00.00','Admin'),
+       (002,'cool','kishan',10000,'14-02-20 9.00.00','DEVELOPER'),
+        (003,'Love','babber',100,'14-02-20 9.00.00','MENAGET'),
+         (004,'Anuj','B',100,'14-02-20 9.00.00','TESTER'),
+		(005,'Sraddha','Khapra',1000,'14-02-20 9.00.00','SWE2');
+
+
+SELECT * FROM Worker; -- show all entries --  
+
+
+CREATE TABLE Bonus ( --  CREATE NEW TABLE NAME Bonus -- 
+   WORKER_REF_ID INT,
+   BONUS_AMOUNT INT(10),
+   BONUS_DATA DATETIME,
+     FOREIGN KEY ( WORKER_REF_ID )
+        REFERENCES Worker(WORKER_ID)
+       ON DELETE CASCADE
+);
+
+INSERT INTO Bonus -- add data into bonus row -- 
+   (WORKER_REF_ID,BONUS_AMOUNT,BONUS_DATA) VALUES
+   (001,5000,'16-02-20'),
+   (002,500,'17-05-21'),
+   (003,3000,'12-02-20'),
+   (004,600,'13-02-20');
+
+CREATE TABLE Title (
+WORKER_REF_ID INT,
+WORKER_TITLE CHAR(25),
+AFFECTED_FROM DATETIME,
+FOREIGN KEY(WORKER_REF_ID)
+    REFERENCES Worker(WORKER_ID)
+    ON DELETE CASCADE
+);
+
+INSERT INTO Title -- add data into bonus row -- 
+   (WORKER_REF_ID,WORKER_TITLE,AFFECTED_FROM) VALUES
+   (001,'Manager','2019-04-20 00:00:00'),
+   (003,'ass.tmanager','2016-02-20 00:00:00'),
+   (002,'led','2013-03-20 00:00:00');
+   
+
+
+
+
+
+
+```
+
+
