@@ -237,9 +237,80 @@ the host language.
 - 1. e.g., Course taken by Professor
 
 # Many to many,
--Entity in A associated with N entity in B. While entity in B also associated with N entity in A.
+- Entity in A associated with N entity in B. While entity in B also associated with N entity in A.
 - 1. Customer buys product.
 - 2. Student attend course
+
+# [Types of Keys](https://www.geeksforgeeks.org/types-of-keys-in-relational-model-candidate-super-primary-alternate-and-foreign/)
+
+### Primary key :-
+
+-  PRIMARY KEY: This is an attribute or set of attributes that can uniquely identify each entity in the entity set.
+-   The  primary key must contain **unique as well as not null** values.
+
+ ### FOREIGN KEY:
+ - Whenever there is some relationship between two entities, there must be some common attribute between them. This common attribute must be the primary key of an entity set and will become the foreign key of another entity set.
+ -  This key will prevent every action which can result in loss of connection between tables.
+
+ # Candidate Key (CK):
+ - minimum subset of super keys, which can uniquely identify each tuple. It contains no redundant attribute.
+- 1. CK value shouldn’t be NULL.
+
+
+ # Alternate Key (AK)
+- **All CK except PK.**
+
+- The alternate key is a combination of one or more columns whose values are unique.
+
+### Super Key
+
+- Any permutation and combination of attributes present in a table which can uniquely identify each tuple.
+
+### secondary key
+
+- A key that **uniquely identifies rows but is not selected as the primary key** is known as a secondary key.
+
+# Database Schema
+
+## 1.Physical Database Schema −
+- This schema pertains to the actual storage of data and its form of storage like files, indices, etc. It defines how the data will be stored in a secondary storage.
+
+## 2.Logical Database Schema − 
+
+- This schema defines all the logical constraints that need to be applied on the data stored. It defines tables, views, and integrity constraints.
+
+<img width="446" alt="image" src="https://user-images.githubusercontent.com/78966839/227696036-ea1d42ac-7a13-4bf5-9b0e-c5d8011a439a.png">
+
+# [Mapping from ER Model to Relational Model](https://www.geeksforgeeks.org/mapping-from-er-model-to-relational-model/)
+
+- Both ER-Model and Relational Model are abstract logical representation of real world enterprises. Because the two models implies the similar design principles, we can convert ER design into Relational design.
+
+- Converting a DB representation from an ER diagram to a table format is the way we arrive at Relational DB-design from an ER diagram.
+
+---
+
+# Relational Operators (Not comp)
+
+## SELECT
+- The SELECT statement is used to select data from a database.
+
+### RENAME:
+- rename DB name, table name, column name etc
+
+
+
+---
+# SQL
+---
+
+# What is sql ?
+
+
+
+
+
+
+
 
 
 
