@@ -209,6 +209,43 @@ the host language.
 - Referential Integrity Rule in DBMS is based on Primary and Foreign Key.
 -  The Rule defines that a foreign key have a matching primary key. Reference from a table to another table should be valid.
 
+---
+
+# RDBMS
+
+# What is  RDBMS  & How it store n memory ?
+
+- An RDBMS is a type of database management system (DBMS) that stores data in a row-based table structure which connects related data elements.
+-  An RDBMS includes functions that maintain the security, accuracy, integrity and consistency of the data. This is different than the file storage used in a DBMS.
+
+- It store memory in tabular form.(row and col)
+
+# Degree of relaction 
+
+### 1 : 1 
+
+-  One to one, Entity in A associates with at most one entity in B, where A & B are entity sets. And an entity of B is associated with at most one entity of A.
+1. E.g., Citizen has Aadhar Card.
+
+### 1 : M
+
+-  **One to many,** Entity in A associated with N entity in B. While entity in B is associated with at most one entity in A.
+- 1. e.g., Citizen has Vehicle
+
+# Many to one,
+- Entity in A associated with at most one entity in B. While entity in B can be associated with N entity in A.
+- 1. e.g., Course taken by Professor
+
+# Many to many,
+-Entity in A associated with N entity in B. While entity in B also associated with N entity in A.
+- 1. Customer buys product.
+- 2. Student attend course
+
+
+
+
+
+
 
 
 
