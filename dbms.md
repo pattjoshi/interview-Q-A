@@ -305,19 +305,105 @@ the host language.
 
 # What is sql ?
 
+- Structured query language (SQL) is a programming language for storing and processing information in a relational database.
+
+# SQL Vs MySQL
+
+### SQL 
+- it is a quary language.
+- way to access data.
+
+### MySQL
+- MySQL is itself a RDBMS.
+- CRUD done on it using sql.
+
+# [IMPORTANT KEYWORD](https://www.educba.com/sql-keywords/)
+
+# [Cheet sheet](https://www.educba.com/cheat-sheet-sql/?source=leftnav)
 
 
+# [Composite Key in SQL?](https://www.educba.com/composite-key-in-sql/?source=leftnav)
+
+- The Composite Key in SQL is a combination of two or more columns, which are used to identify the rows from a table. 
+
+# [What is join and it's type](https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/)
+
+- SQL Join statement is used to combine data or rows from two or more tables based on a common field between them. Different types of Joins are as follows: 
+
+        INNER JOIN
+        LEFT JOIN
+        RIGHT JOIN
+        FULL JOIN
+        SELF JOIN
 
 
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/78966839/227699798-7299c8ba-c827-4d2d-a9ac-1866d4b58976.png">
+
+###  SELF JOIN
+
+- 1. It is used to get the output from a particular table when the same table is joined to itself.
+- 2. Used very less.
+- 3. Emulated using INNER JOIN.
+- 4. SELECT columns FROM table as t1 INNER JOIN table as t2 ON t1.id = t2.id
+
+# What is view ?
+
+- A view is a virtual table whose contents are defined by a query
+
+# what is Trigggle
+
+- Trigger: A trigger is a stored procedure in database which automatically invokes whenever a special event in the database occurs.
+
+- For example, a trigger can be invoked when a row is inserted into a specified table or when certain table columns are being updated. 
 
 
+# Difference between primary key
+
+<img width="490" alt="image" src="https://user-images.githubusercontent.com/78966839/227700399-aef62cf0-b027-4d63-8349-14bbec05abde.png">
 
 
+# SQL Injection
+- SQL injection is a code **injection technique** that might destroy your database.
+
+- it is one of the most common web hacking techniques.
+
+- SQL injection is the placement of malicious code in SQL statements, via web page input.
+
+# Difference between DELETE and TRUNCATE 
+
+- **DELETE** :
+- removes rows one by one and can be used with a WHERE clause to delete specific rows based on a condition.
+- **TRUNCATE :-**
+- removes all rows from a table at once, without any condition. It also resets the auto-incremented ID of the table (if any) to the starting value.
+- **Conclusion** :
+- TRUNCATE is faster than DELETE because it doesn't generate a transaction log for each deleted row, but it can't be rolled back or used with a WHERE clause. DELETE is slower but more flexible.
+
+# [sql privilages](https://www.geeksforgeeks.org/mysql-grant-revoke-privileges/)
+
+# [subquery](https://www.tutorialspoint.com/sql/sql-sub-queries.htm)
+
+- A subquery is a query that appears inside another query statement
+
+- A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved.
 
 
+# What is Cursor ?
 
+- Cursor is a Temporary Memory or Temporary Work Station. It is Allocated by Database Server at the Time of Performing DML(Data Manipulation Language) operations on Table by User.
+-  Cursors are used to store Database Tables. There are 2 types of Cursors:
+                -   Implicit Cursors, 
+                -    Explicit Cursors.
 
+- **Implicit Cursors:**
+- Implicit Cursors are also known as Default Cursors of SQL SERVER. These Cursors are allocated by SQL SERVER when the user performs DML operations.
+- **Explicit Cursors :**
+- Explicit Cursors are Created by Users whenever the user requires them. Explicit Cursors are used for Fetching data from Table in Row-By-Row Manner.
 
+# Difference between Clustered and Non-clustered index
+
+<img width="495" alt="image" src="https://user-images.githubusercontent.com/78966839/227701874-5ba9704f-1a3b-4916-ba9a-7c4ed9c09eb3.png">
+
+# Indexing in DBMS: What is, Types of Indexes
 
 
 
