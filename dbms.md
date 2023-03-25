@@ -403,7 +403,7 @@ the host language.
 
 <img width="495" alt="image" src="https://user-images.githubusercontent.com/78966839/227701874-5ba9704f-1a3b-4916-ba9a-7c4ed9c09eb3.png">
 
-# Indexing in DBMS: What is, Types of Indexes
+# [Indexing in DBMS: What is, Types of Indexes](https://www.guru99.com/indexing-in-database.html#1)
 
 
 
