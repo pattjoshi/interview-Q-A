@@ -31,7 +31,7 @@ react.js , redux,node.js, mongoDb,express.js.
 
 # Why should you be hired for this role?
 
-## Frontend develper (node.js)
+## Back-end develper (node.js)
 
 - I should be hired for the backend Node.js role because:
 
