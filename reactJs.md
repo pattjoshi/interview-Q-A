@@ -114,13 +114,33 @@
 - With the component-based system in place, all of the individual entites becomes completely reusable and independed of each other.
 - This means that rendering the application is easy and not depended on the other components of the UI.
 
+# How does rendering work in React ?
 
+- Rendering is an important aspect of react as every single component must be rendered.This is done using the render() function.
 
+- Once the function is called,it return an element that represents a DOM component.
 
+- it is alsopossible to render more then one HTML element at a time by enclosing the HTML tegs and passiing it through the render function.
 
+# What are states in React ?
 
+- States form to be once of the vital aspects of react. it considered as a source of data or objects that control aspects such as component behavior and rendering.
 
+- in react, states are used to easily create dynamic and interactive component.
 
+# What are props in React?
+
+- Props are the shothand name given to properties in React.js
+- Props are read-only components that are immutable in nature.
+- in an application,props follow a hierachy that is passed down from parents to child components.
+- However, the reverse is not supported.This is done to ensure that there is only a single directioal flow in data at all times.
+
+# What is the use of an arrow function in react?
+
+- An arrow function is used to write an expession in react.
+- it allows user to Manualy bind components easyly.The functionality of arrow functions can be very usefull when you are working with higher-order functioins particulariy.
+
+# 
 
 
 
