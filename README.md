@@ -21,10 +21,14 @@ REDME file update soon:)
 ## Frontend develper (react.js)
 
 - From what I understand, the key requirement for the role is to build an efficient front end user interface.
+
 -  I'm deeply passionate about building quality web applications. 
+
 -  I have experience in javascript React.js framework and can deliver completes front-end application.
+
 - I have a strong foundation in Full stack development technologies such as HTML, CSS, JavaScript.
 react.js , redux,node.js, mongoDb,express.js.
+
 - With my expertise in React.js, strong frontend development skills, focus on responsive and accessible design, UI/UX sensibilities, problem-solving abilities, collaboration mindset, and dedication to continuous learning, I am confident that I can make a valuable contribution to the frontend development team and help create outstanding user experiences.
 
 ---
