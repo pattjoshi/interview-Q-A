@@ -140,7 +140,50 @@
 - An arrow function is used to write an expession in react.
 - it allows user to Manualy bind components easyly.The functionality of arrow functions can be very usefull when you are working with higher-order functioins particulariy.
 
-# 
+# What is higher-order component in react ?
+
+- Higer-order components (HOCS) area awidely used techique in react for applying concepts that involve the component reusablity logic.
+- They are not a native part of the React API and allow  users to easily reuse the code and bootstrap abstraction.
+- HOCs are also used to allow simple sharing of behaviours across all of the compontts in react, adding more advantage to the efficeny and functing of the application.
+
+# wHAT IS THE MEANING OF REDUX ?
+
+- Redux is used to store the state of the application in a single entity
+- This simple entity is usually a javaScript object.Changing states can be done by pushing out actions from the application and writing corresponding objects for them that are used to modify the states.
+
+# Difference between props and states ?
+
+### Props
+- Changes in child components yes.
+- Parent compontnt changing values Yes.
+- Change inside components No.
+### States
+- Changes in child components No.
+- Parent compontnt changing values No.
+- Change inside components Yes.
+
+# What are the threee phases of a component life cycle in React ?
+
+- **Initial rendering**: This is the phase that involves the begining of the jorney of the component ot the DOM.
+- **Update:-** Hear, the component can be updated and render again of required after it gets added to the DOM.
+- **Unmounting:-** The final phase involves the destruction of the component and its eventual removal from the DOM.
+
+# What are events in React ?
+
+- When ever there are actions performed in React,sucha s hovering of the mouse or pressing a key on the key board, thes actions trigger events.
+- **Events** then perform set activities as a response to these triggers.
+- Handling an event in React is very similar to the DOM architecture.
+
+# How is routing in react different from coventional routing ?
+
+- **Pages:** Each view is considered as a new file in convernional routing which it is considered as a single HTML entity in React.
+
+-**Navigation:-** in convention routing, user have to move across web Page for viewing. In React, the views are not refreshed as objects are re-issued to create new views.
+
+
+
+
+
 
 
 
