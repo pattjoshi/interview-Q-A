@@ -180,6 +180,92 @@
 
 -**Navigation:-** in convention routing, user have to move across web Page for viewing. In React, the views are not refreshed as objects are re-issued to create new views.
 
+# what is the meaning of synthetic events in React?
+
+- **synthetic events** in React are objects that act as cross-browser wrappers,allowing for the use of  native events.
+
+theis is done to ensure that a variety of browser can run the API and that the event contains all properites.
+
+# What are statefull components in React ?
+
+- **statefull components** are entities that store the changes that happen and place them into the memory.
+- Here, the state can be changed, alongside string information such as past,current, and future changes.
+
+# What are **refs** in React?
+
+- **Refs** is short for references in React.
+- refs are used to store a reference to a single react element or a react component.This is later returned using the render function.
+- They are maninly used in the following senarios:- 
+- To initiate imperative animations.
+- To join third-party DOM libraryes.
+- To manages focus and apply media playback.
+
+# What are controlled components in React?
+
+- controlled components in React fefer to the components that have the ability to maintain their state.
+- The data is completely controlled by the parent component,and the current value is fetched by making use of props.
+- This is done to natify about any change that occurs when using callbacks.
+
+# Why is a router required in react ?
+
+- A router is very much necessary in react as it  is used to manage multuple routes whenever a user type in URL. if the router is  present in the router for the corresponding URL,then user is taken to the particular route.
+- To do this,the router libary needs to be added in React.
+
+# What are the components of redux in React ?
+
+- Redux consists of **four** main components as shown below:-
+- **Action:** an object that describes the call
+- **Reducer** the state change storeage unit
+- **Store** the state and object tree store 
+- **view** displays data provided by the store
+
+# What are the advantage of using Redux ?
+
+- Organized Approch :- Redux requires code to be organized,thereby making it consistent and easy to work with.
+- Testing Ability :- Redux fuctions are small and isolated,making the code more independent and taskable.
+- Tools :- Developers can track actions and all of the tools in React using Redux easily.
+- Community :- Redux has a large community, helping user with efficient and easy-to-use libraries.
+
+# What are the disadvantages of using MVC in React?
+
+- Among a plethore of advantages of using MVC in React, there are **minor** problems as stated below 👎
+- A lot of menory wastage occurs
+- DOM manipulation costs a lot
+- the application becomes slow
+- lots of dependencies are created
+- The complexity of models increases
+
+# What are pure componets in React?
+
+- Pure components are singular entites that written in React.
+- They are fast and simple to write and have athe ability to replace a component that has only the render() function.
+- This is done to ensure that the performance of the application is good and that the code is kept simple at the same time.
+
+# what is higher-order components (HOCs) used for?
+
+- HOCs are used for a veriety of tasks such as 
+- Manipulation of props.
+- State mainpulation and abstraction.
+- Render high jacking.
+- Code reusing.
+- Bootstrap abstraction.
+
+# What are keys in React?
+
+- Keys are used in react to check all items and to track changes actively.
+- They are used to directly check if an item has been added or removed from a list.
+
+# 
+
+
+
+
+
+
+
+
+
+
 
 
 
