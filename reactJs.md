@@ -255,25 +255,53 @@ theis is done to ensure that a variety of browser can run the API and that the e
 - Keys are used in react to check all items and to track changes actively.
 - They are used to directly check if an item has been added or removed from a list.
 
-# 
+# Diff Controlled component and uncontrolled component in react?
 
+- A **Controlled component**, as the name suggests, is a component over which  react has compoete control.
+- it is the singular point of data for the froms.
 
+- An **uncontrolled component** is one where the form data gets handled by DOM and not the react component.
+- This is usullyh done using refs on React.
 
+# What is the use of the second argument that is passed to setState? is it optional?
 
+- When setState is finished a callback function is invoked,and the components get re-render in React.
+- **yes,it is an optional argument** since setState is asynchronous, it takes in another callback function.
+- However,in programming practics, it is always good to use another ife cycle method instead of this.
 
+# What is the Strictmode component use in React?
 
+- The strictMode component when used would beefit user immensely while creating new code base to understand the components being used.
+- However,it can fit well in debugging as well becouse it will help solve the problem faster when it is wrapped with other components, which could be causing the problem.
 
+# What would you do if your react application is rendering slowly?
 
+- The cause of slow rendering in react i smostly becaouse of number of re-render opctions. which are somtimes unnessary.
+- There are two main tools provided by react tohelp used hear
+- React.memo():- this used to prevent all of the unnecessary re-rendering carried out by the function componrnts.
+- PureComponent : this is used to ensure that the unnecessory re-redering of class components are avoided.
 
+# Why is props passed to the super() function in React?
 
+- props gets passed onto the super() function if a user wishes to access this.props in the constructor.
 
+# What is the difference btn using getlnitialstate and constructors in react?
 
+- when using ES6 user must initialize the state in the constructor and the getlinitialState menhod is defined.
 
+- This is done using React.createClass.
 
+# What is React fiber ?
 
+- React fiber is a new engine in react, it is the reimplacmentation core algorithm in react 16.
+- The main goal of react fiber is to ensure that there are incremental rendering facilities for the virtual DOM.
+- This increases effciency when reddering animations, gestures, etc. and also helps in assigning priority to updates based on the requirement, there by increasing overall effciency.
 
+# What are hooks in react ?
 
-
+- Hooks are used to make use of the state and other feature without having to explicitly  write a class. hooks were added to react version 16.8.
+- The statefull login can be extracted from a component easily,alongside testing and reusing it.
+- All of this is done with out making any changes to the conponent hierarchy.
 
 
 
