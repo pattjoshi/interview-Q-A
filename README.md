@@ -1,7 +1,5 @@
 # MERN_QUS
 
-REDME file update soon:) 
-
 # Why should you be hired for this role?
 
 ## Full Stack (MERN)
