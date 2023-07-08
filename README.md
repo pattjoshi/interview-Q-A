@@ -49,6 +49,7 @@ react.js , redux,node.js, mongoDb,express.js.
 
 
 
+<img width="440" alt="image" src="https://github.com/pattjoshi/MERN_QUS/assets/78966839/2d764382-30d3-4039-976b-9cc95357615b">
 
 
 
