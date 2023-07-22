@@ -2,6 +2,8 @@
 
 ---
 
+# BASIC && ADV
+
 ## Name some css frameworks?
 
 - css Frameworks are libraries that make web page styling easier. Some of them are **foundation,Bootstrap,Styled-component,Ukit**
@@ -21,15 +23,80 @@
 
 - The ruleset is used for the identification of selectors, which can be attached with other selector, the two parts of a rulset are: - Declaration Block:- Contains one or more semicolon-separated declarations. - Sector: Indicates the HTML element needed to be styled
 
-# 4
+# What does CSS stand for, and what is its primary purpose?
+
+- CSS stands for Cascading Style Sheets and is used to style the layout and presentation of HTML documents.
+
+# How do you link an external CSS file to an HTML document?
+
+- To link an external CSS file to an HTML document, use the <link> tag in the HTML head section with the "rel" attribute set to "stylesheet" and the "href" attribute pointing to the CSS file's location.
+
+#  Explain the difference between classes and IDs in CSS. When would you use one over the other?
+
+- Classes are used to select multiple elements with the same styling, while IDs are used to select a unique element. Use classes for elements with shared styles and IDs for unique elements.
+
+# How do you select all paragraphs on a web page using CSS?
+
+- To select all paragraphs on a web page, use the "p" selector in CSS: p { /* styles here */ }.
+
+# How can you center an element horizontally and vertically using CSS?
+
+```
+.centered-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
+# What is the box model in CSS? Describe the components of the box model.
+
+- The box model in CSS defines how elements are rendered in a rectangular box, consisting of content, padding, border, and margin.
+
+# How do you set a background image for a specific element in CSS?
+
+- To set a background image for an element, use the "background-image" property in CSS: background-image: url('image.jpg');.
+
+# Explain the "float" property in CSS and how it affects the layout of elements.
+
+- The "float" property in CSS is used to position elements to the left or right of their containing element, affecting the layout of subsequent elements.
+
+# What is a media query, and how is it used in responsive web design?
+
+- Media queries are used in responsive web design to apply CSS styles based on the user's device characteristics (e.g., screen size, resolution). Example: @media screen and (max-width: 768px) { /* styles here */ }.
+
+# How do you create a simple CSS animation or transition?
+
+- To create a simple CSS animation or transition, use the "animation" or "transition" properties with appropriate values for the desired effect.
+
+# What are pseudo-classes in CSS? Provide an example of when you might use one.
+
+- Pseudo-classes in CSS are used to select and style elements in specific states, such as :hover for when the user hovers over an element.
+
+# Describe the difference between inline and block-level elements in CSS.
+
+- Inline elements do not start on a new line and only take up as much width as necessary, while block-level elements start on a new line and take up the full available width.
+
+# How do you hide an element in CSS while still keeping it accessible to screen readers?
+
+- To hide an element while keeping it accessible to screen readers, use the following CSS: visibility: hidden; or opacity: 0;.
+
+# How can you target and style elements based on their parent-child relationship using CSS?
+
+- To target and style elements based on their parent-child relationship, use descendant selectors or child selectors in CSS.
+
+# What is the purpose of CSS vendor prefixes, and can you provide an example of when to use them?
+
+- CSS vendor prefixes are used to apply experimental or browser-specific CSS properties. Example: -webkit-border-radius. They are less commonly needed nowadays due to browser support improvements.
 
 
 
 
 
 
-
-
+---
+# Adv
 
 What is CSS selector specificity and how does it work? <br>
 What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why? <br>
