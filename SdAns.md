@@ -227,8 +227,50 @@ It is returned when a mathematical operation is performed, but the result is not
 <input id="inputField" type="text" />
 ```
 
+---
+# React router
+---
+
+# Purpose of push() and replace() methods of history:
+- In React, the push() and replace() methods are part of the history object, which is provided by React Router. They allow you to control the navigation and manipulate the browser's history.
+
+- push(path, [state]): This method adds a new entry to the history stack, pushing the user to the specified path. It is typically used when you want to navigate to a new page or route.
+
+- replace(path, [state]): This method replaces the current entry in the history stack with the new path. It is commonly used when you want to update the URL without creating a new history entry, useful for situations like form submissions or redirects.
+
+# How to perform automatic redirect after login:
+
+- To perform an automatic redirect after login, you can use the history.push() method or leverage React Router's <Redirect> component.
+
+- Assuming you have a login component and want to redirect the user to a dashboard page after successful login, here's a general approach:
 
 
+```
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
+
+const LoginComponent = () => {
+  const [isLoggedIn, setLoggedIn] = useState(false);
+  const history = useHistory();
+
+  const handleLogin = () => {
+    // Perform login logic and set isLoggedIn to true upon successful login
+    setLoggedIn(true);
+
+    // After successful login, redirect the user to the dashboard
+    history.push('/dashboard');
+  };
+
+  return (
+    <div>
+      {/* Your login form */}
+      <button onClick={handleLogin}>Login</button>
+    </div>
+  );
+};
+
+export default LoginComponent;
+```
 
 ---
 
@@ -295,10 +337,3 @@ It is returned when a mathematical operation is performed, but the result is not
 
 - In a React component, you can use the useSelector hook from React Redux to access the Redux store state and retrieve the required data. 
 - The useSelector hook takes a selector function as an argument and returns the data from the store based on that selector.
-
-
-
-
-
-
-
