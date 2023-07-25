@@ -12,23 +12,29 @@
 
 # 2. Scope chaining:
 
-Scope chaining refers to the process of searching for variables in nested scopes in JavaScript.
-If a variable is not found in the immediate local scope, JavaScript looks for it in the outer (enclosing) scopes until the global scope is reached.
+- Scope chaining refers to the process of searching for variables in nested scopes in JavaScript.
+
+- If a variable is not found in the immediate local scope, JavaScript looks for it in the outer (enclosing) scopes until the global scope is reached.
+
+- The process of going one by one to parent and checking for values is called scope chain or Lexcial environment chain.
+
+
 
 # 3. Hoisting:
 
-Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase.
-However, only the declarations are hoisted, not the initializations.
+- Hoisting is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting errors and this is happening due to the 1st phase (memory creation phase) of the Execution Context.
 
 # 4. Closures:
 
-Closures are functions that have access to variables from their outer (enclosing) function even after the outer function has finished executing.
+- Function bundled along with its lexical scope is closur
+
+- Closures are functions that have access to variables from their outer (enclosing) function even after the outer function has finished executing.
 They "remember" the environment in which they were created.
 
 # 5. Higher-order function:
 
-Higher-order functions are functions that take one or more functions as arguments or return a function as a result.
-They enable functional programming paradigms and allow for code reuse and composition.
+- Higher-order functions are functions that take one or more functions as arguments or return a function as a result.
+- They enable functional programming paradigms and allow for code reuse and composition.
 
 # 6. "this" keyword:
 
@@ -42,12 +48,12 @@ It is returned when a mathematical operation is performed, but the result is not
 
 # 8. Concatenate a string:
 
-String concatenation is the process of combining two or more strings into one.
-In JavaScript, you can use the + operator or template literals (backticks) for string concatenation.
+- String concatenation is the process of combining two or more strings into one.
+- In JavaScript, you can use the + operator or template literals (backticks) for string concatenation.
 
 # 9. How to create an array:
 
-Arrays can be created in JavaScript using array literals [ ] or the Array constructor: let arr = new Array();.
+- Arrays can be created in JavaScript using array literals [ ] or the Array constructor: let arr = new Array();.
 
 # 10. Create an object in JavaScript:
 - Objects can be created using object literals { } or the Object constructor: let obj = new Object();.
@@ -96,7 +102,7 @@ Arrays can be created in JavaScript using array literals [ ] or the Array constr
 - "Null" represents the intentional absence of a value and is usually assigned by the programmer.
 - "Undefined" means a variable has been declared but hasn't been assigned any value yet.
 
-# Explain the use of the "this" keyword in JavaScript.
+# 23. Explain the use of the "this" keyword in JavaScript.
 
 - "this" refers to the current context or object within a function or method.
 - Its value is determined by how a function is called, and it can change based on the context of the execution.
