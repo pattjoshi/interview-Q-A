@@ -1,11 +1,11 @@
 # Hear i Keep My Hr qus for Interview !
 
-## 1)about Highradius/accenture/our company ?
+## 1)about Highradius/accenture/our company?
 
 - **Company Name** is one of the quickest developing and driving IT firms in India.
-- I read on Your website that Highradius is a fintech Enterprices Softerware as a Service (saas)company.
-- Sashi Narahari is the Prisident/CEO/CO-FOUNDER of High radius.
-- I Know, who is a part of this organization is very happy working hear.So i actually have good chance to point out my talent.
+- I read on Your website that DePronto Infotech is a Software Development Company.
+- with operations in India and UK specializing in Design-2-Code (high-performance front end technologies) and Customized application development focused on Analytics and Automation.
+- I know, who is a part of this organization is very happy working hear. So I actually have a good chance to point out my talent.
 ---
 
 # 2)Introduce urself/tell me something abt urself
