@@ -107,66 +107,171 @@ It is returned when a mathematical operation is performed, but the result is not
 - "this" refers to the current context or object within a function or method.
 - Its value is determined by how a function is called, and it can change based on the context of the execution.
 
+---
 
+# REACT.JS
+
+---
+
+# 1. Major features of React:
+
+- Virtual DOM: Efficiently updates and renders changes to the actual DOM.
+- Component-based architecture: Encourages building UIs as reusable components.
+- One-way data flow: Data flows from parent components to child components.
+- JSX: A syntax extension that allows writing HTML-like code in JavaScript.
+- Unidirectional data flow: State changes are propagated from parent to child components.
+- Reusable components: Components can be composed and reused throughout the application.
+
+# 2. JSX:
+
+- JSX (JavaScript XML) is a syntax extension for JavaScript used in React to describe the structure of the UI components.
+- It allows developers to write HTML-like code within JavaScript, making it easier to create and visualize component trees.
+
+# 3. Pure Components:
+- Pure Components are a type of React component that extends React.
+- PureComponent instead of React.Component. They automatically implement a shouldComponentUpdate method with a shallow prop and state comparison, optimizing performance by avoiding unnecessary re-renders.
+
+# 4. State in React:
+
+- State is a mechanism in React that allows components to maintain and manage their internal data.
+- When state data changes, React re-renders the components to reflect those changes in the UI.
+
+# 5. Difference between state and props:
+
+- Props are used to pass data from parent to child components, and they are immutable (cannot be changed within the child component).
+- State is used to manage internal component data and can be changed using setState().
+
+# 6. Purpose of the callback function as an argument of setState():
+
+- The callback function provided as an argument to setState() is executed after the state update is complete and the component has re-rendered.
+-  It allows performing additional tasks that depend on the updated state.
+
+# 7. Difference between HTML and React event handling:
+
+- In HTML, event handlers are assigned as attributes with inline JavaScript code, like onclick="handleClick()".
+-  In React, event handling is done using camelCase event names as props, like onClick={() => handleClick()}.
+
+# 8. "key" prop and its benefit in arrays of elements:
+- The "key" prop is a special attribute used by React when rendering arrays of elements.
+-  It helps React identify which items have changed, been added, or removed in a list, improving the efficiency of re-rendering and preventing unnecessary re-renders.
+
+# 9. How to bind methods or event handlers in JSX callbacks:
+
+- To bind methods or event handlers in JSX callbacks, you can either use arrow functions like onClick={() => this.handleClick()}, or bind the method in the constructor like this.handleClick = this.handleClick.bind(this).
+
+# 10. Inline conditional expressions:
+
+- Inline conditional expressions in JSX allow rendering different content based on a condition.
+-  The syntax involves using the ternary operator, for example: {isLogged ? <LoggedInComponent /> : <LoggedOutComponent />}.
+
+# 11. React uses virtual DOM or real DOM?
+
+- React uses a virtual DOM. It is a lightweight copy of the actual DOM that React uses to keep track of changes.
+-  When there are updates, React compares the virtual DOM with the actual DOM and efficiently updates only the necessary parts.
+
+# 12. How does virtual DOM work?
+
+- When there are changes in the state or props of a React component, it re-renders the component and creates a new virtual DOM tree.
+- React then performs a diffing algorithm to compare the new virtual DOM with the previous one and calculates the minimal changes needed to update the actual DOM efficiently.
+
+# 13. Difference between Shadow DOM and Virtual DOM:
+
+- Shadow DOM is a browser technology that encapsulates the DOM and styles of a component, preventing them from affecting other parts of the page.
+- Virtual DOM is a concept used by React to efficiently update the actual DOM by comparing the changes between two virtual DOM trees.
+
+# 14. Different phases of the component lifecycle:
+- The component lifecycle in React has three main phases:
+
+- Mounting: When the component is being created and inserted into the DOM.
+- Updating: When the component is re-rendered due to changes in props or state.
+- Unmounting: When the component is removed from the DOM.
+
+# 15. Higher-Order Components (HOC):
+- Higher-Order Components are functions that take a component as an argument and return a new enhanced component with additional props or behaviors.
+-  HOCs are used for code reuse and logic sharing among multiple components.
+
+# 16. Why does React use "className" over the "class" attribute?
+
+- React uses "className" instead of the "class" attribute to define CSS classes on HTML elements.
+-  This is because "class" is a reserved keyword in JavaScript, and using "className" prevents conflicts and follows the JSX syntax conventions.
+
+# 17. Fragments:
+
+- Fragments allow grouping multiple elements without adding an extra wrapping element.
+-  They improve the component's readability and avoid unnecessary DOM nesting.
+-   Fragments are represented by the empty tag <> ... </> or the <React.Fragment> ... </React.Fragment> syntax.
+
+# 18. Stateless components & stateful components:
+
+- Stateless components (functional components) are written as pure functions and do not have their own state.
+- Stateful components (class components) have their own state, allowing them to manage and update data.
+
+# 19. How to apply validation on props in React?
+
+- You can apply validation on props in React using the propTypes property or the prop-types library.
+-  propTypes allow you to define the expected types and requirements for each prop in a component.
+
+# 20. Is it good to use setState() in componentWillMount() method?
+
+- No, it is not recommended to use setState() in the componentWillMount() method.
+-  The reason is that it may trigger additional renders, leading to performance issues.
+-   It is better to initialize the state in the constructor or use the new static getDerivedStateFromProps() method.
+
+# 21. How to use the React label element?
+- To associate a label with an input element in React, use the htmlFor attribute in the label element and provide the id of the corresponding input element.
+-  This helps in improving accessibility by allowing screen readers to correctly associate labels with form inputs. Example:
+
+
+```
+<label htmlFor="inputField">Name:</label>
+<input id="inputField" type="text" />
+```
+
+
+
+
+---
 
 # Redux  
 
 ---
-# Redux thunk 
 
-- Redux Thunk middleware is used to handle asynchronous actions in Redux.
-- It enables dispatching of functions as actions, allowing for async operations such as API calls, fetching data, and handling side effects.
+# 1. What is Redux?
+- Redux is a predictable state management library for JavaScript applications, commonly used with React.
+- It helps manage the state of an application in a centralized store and enables components to access and modify the state in a predictable manner.
 
+# 2. What are the core principles of Redux?
 
+- The core principles of Redux are:
 
-# What is the purpose of the constants in Redux?
+- Single source of truth: The state of the entire application is stored in a single store, making it easy to manage and debug.
+- State is read-only: The state can only be modified through dispatched actions, ensuring predictability and traceability of changes.
+- Changes are made by pure functions: To update the state, reducers (pure functions) are used, which take the previous state and an action and return a new state.
 
-- Clear identification: Constants provide a clear and unique identifier for each action type in Redux.
+# 3. Difference between useDispatch and useSelector:
 
-- Preventing errors: By using constants, typos and syntax errors in action types can be caught at compile-time, minimizing bugs and runtime issues.
+- useDispatch is a hook provided by React Redux to dispatch actions to the Redux store from functional components.
+- useSelector is a hook that allows components to extract and read data from the Redux store state.
 
-- Code consistency: Constants ensure that the same action type is consistently used across the application, promoting code clarity and reducing confusion.
+# 4. Redux Thunk:
+- Redux Thunk is a middleware for Redux that allows writing asynchronous logic and side effects in Redux actions.
+-  It enables actions to return functions instead of plain objects, giving more flexibility in handling asynchronous operations like API calls.
 
-- Refactoring ease: Constants make it easier to refactor and maintain code by centralizing action type definitions, allowing for easy updates and modifications.
+# 5. How to dispatch an action on load?
 
-# What is Redux DevTools?
+- To dispatch an action on load, you can use the useEffect hook from React.
+- Within the useEffect callback, call the dispatch function with the action you want to trigger.
 
-- Redux DevTools is a browser extension and development tool that enhances the debugging and monitoring capabilities of Redux applications.
+# 6. How to use connect() from React Redux?
 
-- Redux DevTools greatly simplifies the process of debugging Redux applications by providing a visual representation of actions, state changes, and middleware effects. It offers powerful capabilities for inspecting, replaying, and analyzing the application's state and behavior, ultimately improving productivity and reducing development time.
+- The connect() function is used to connect a React component to the Redux store.
+-  It transforms the component into a connected component, allowing it to access state and dispatch actions.
+-  In modern React applications, it is more common to use the useSelector and useDispatch hooks to achieve the same result.
 
-# What is an action in Redux?
-
-- In Redux, an action is a plain JavaScript object that represents an event or intention to change the state of an application.
-
-- actions serve as a standardized way to communicate changes and interactions in a Redux application, enabling predictable state updates.
-
-
-
-1. What is Redux?
-Redux is a predictable state management library for JavaScript applications, commonly used with React. It helps manage the state of an application in a centralized store and enables components to access and modify the state in a predictable manner.
-
-2. What are the core principles of Redux?
-The core principles of Redux are:
-
-Single source of truth: The state of the entire application is stored in a single store, making it easy to manage and debug.
-State is read-only: The state can only be modified through dispatched actions, ensuring predictability and traceability of changes.
-Changes are made by pure functions: To update the state, reducers (pure functions) are used, which take the previous state and an action and return a new state.
-3. Difference between useDispatch and useSelector:
-
-useDispatch is a hook provided by React Redux to dispatch actions to the Redux store from functional components.
-useSelector is a hook that allows components to extract and read data from the Redux store state.
-4. Redux Thunk:
-Redux Thunk is a middleware for Redux that allows writing asynchronous logic and side effects in Redux actions. It enables actions to return functions instead of plain objects, giving more flexibility in handling asynchronous operations like API calls.
-
-5. How to dispatch an action on load?
-To dispatch an action on load, you can use the useEffect hook from React. Within the useEffect callback, call the dispatch function with the action you want to trigger.
-
-6. How to use connect() from React Redux?
-The connect() function is used to connect a React component to the Redux store. It transforms the component into a connected component, allowing it to access state and dispatch actions. In modern React applications, it is more common to use the useSelector and useDispatch hooks to achieve the same result.
-
-7. What is the purpose of constants in Redux?
-Constants in Redux are used to define action types. They ensure that action types are consistent and easily maintainable throughout the application. By defining action types as constants, it helps prevent typos and improves code readability.
+# 7. What is the purpose of constants in Redux?
+- Constants in Redux are used to define action types.
+- They ensure that action types are consistent and easily maintainable throughout the application.
+- By defining action types as constants, it helps prevent typos and improves code readability.
 
 # 8. What is Redux Thunk?
 
