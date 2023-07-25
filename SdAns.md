@@ -117,7 +117,6 @@ It is returned when a mathematical operation is performed, but the result is not
 - Redux Thunk middleware is used to handle asynchronous actions in Redux.
 - It enables dispatching of functions as actions, allowing for async operations such as API calls, fetching data, and handling side effects.
 
-- In summary, Redux Thunk allows you to write action creators that return functions instead of action objects, enabling asynchronous operations and side effects within Redux. It helps handle async logic in a more organized and controlled manner.
 
 
 # What is the purpose of the constants in Redux?
@@ -143,6 +142,54 @@ It is returned when a mathematical operation is performed, but the result is not
 - actions serve as a standardized way to communicate changes and interactions in a Redux application, enabling predictable state updates.
 
 
+
+1. What is Redux?
+Redux is a predictable state management library for JavaScript applications, commonly used with React. It helps manage the state of an application in a centralized store and enables components to access and modify the state in a predictable manner.
+
+2. What are the core principles of Redux?
+The core principles of Redux are:
+
+Single source of truth: The state of the entire application is stored in a single store, making it easy to manage and debug.
+State is read-only: The state can only be modified through dispatched actions, ensuring predictability and traceability of changes.
+Changes are made by pure functions: To update the state, reducers (pure functions) are used, which take the previous state and an action and return a new state.
+3. Difference between useDispatch and useSelector:
+
+useDispatch is a hook provided by React Redux to dispatch actions to the Redux store from functional components.
+useSelector is a hook that allows components to extract and read data from the Redux store state.
+4. Redux Thunk:
+Redux Thunk is a middleware for Redux that allows writing asynchronous logic and side effects in Redux actions. It enables actions to return functions instead of plain objects, giving more flexibility in handling asynchronous operations like API calls.
+
+5. How to dispatch an action on load?
+To dispatch an action on load, you can use the useEffect hook from React. Within the useEffect callback, call the dispatch function with the action you want to trigger.
+
+6. How to use connect() from React Redux?
+The connect() function is used to connect a React component to the Redux store. It transforms the component into a connected component, allowing it to access state and dispatch actions. In modern React applications, it is more common to use the useSelector and useDispatch hooks to achieve the same result.
+
+7. What is the purpose of constants in Redux?
+Constants in Redux are used to define action types. They ensure that action types are consistent and easily maintainable throughout the application. By defining action types as constants, it helps prevent typos and improves code readability.
+
+# 8. What is Redux Thunk?
+
+- Redux Thunk is a middleware that allows asynchronous operations and side effects to be handled within Redux actions.
+
+-  It enables action creators to return functions instead of plain objects, allowing delayed dispatching and coordination of multiple actions.
+
+- In summary, Redux Thunk allows you to write action creators that return functions instead of action objects, enabling asynchronous operations and side effects within Redux. It helps handle async logic in a more organized and controlled manner.
+
+# 9. What are Redux DevTools?
+
+- Redux DevTools is a browser extension that provides a set of powerful development tools for inspecting, debugging, and time-traveling through Redux state changes. 
+- It allows developers to visualize the state and actions, making it easier to track and understand the application's behavior.
+
+# 10. What is an action in Redux?
+
+- An action in Redux is a plain JavaScript object that describes an event or intention to change the state of the application.
+- It must have a type property that defines the type of action being performed and can also include additional data required for the state update.
+
+# 12. What is the proper way to access the Redux store?
+
+- In a React component, you can use the useSelector hook from React Redux to access the Redux store state and retrieve the required data. 
+- The useSelector hook takes a selector function as an argument and returns the data from the store based on that selector.
 
 
 
