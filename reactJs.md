@@ -124,8 +124,8 @@
 
 # What are states in React ?
 
-- States form to be once of the vital aspects of react. it considered as a source of data or objects that control aspects such as component behavior and rendering.
-
+- State is a mechanism in React that allows components to maintain and manage their internal data.
+- When state data changes, React re-renders the components to reflect those changes in the UI.
 - in react, states are used to easily create dynamic and interactive component.
 
 # What are props in React?
