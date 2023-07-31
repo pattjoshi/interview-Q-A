@@ -173,7 +173,7 @@
   - use make up and web languages like HTML,CSS,JAVASCRIPT
   - Based on asynchronous requests and AJAX.
   - Batter Accessibility.
-  - clint side.
+  - clint side. SEO
   ## Bake-end
   - Uses programming and scripting languages like python,Ruby,perl,etc.
   - Based on server Architecture
@@ -182,8 +182,11 @@
 
 # What do you understand by callback hell?
 
+- it typically contains mltiple nasted callback fuction fuctions which in turn make the code hard to read and debug.
 - **A Callback is a function “A” that is passed to another function “B” as a parameter**.
 - The function “B” executes the code “A” at some point. The invocation of “A” can be immediate, as in a synchronous callback, or, it can occur later as in an asynchronous callback.
+
+<img width="250" alt="image" src="https://github.com/pattjoshi/interview-Q-A/assets/78966839/73ab6420-4774-4757-a7b9-46c3f4e5651c">
 
 # Explain the concept of middleware in Node.js?
 
@@ -199,14 +202,95 @@
 - Google uses V8 as it is a chrome rentime engine that converts javaScript code into native machine code.
 - it speeds up the application exexecution and response Process and give you a fast running applicaton.
 
+# Explain the working of the control flow function.
+
+- The control flow function is basically the code that is exicuted between the asynchronouus function calls.
+  - The order of exicution must be controlled.
+  - The required data nedds to be collected.
+  - The concurrency must be limited
+  - The next step of the program must be invoked.
+
+# List down the tow agrument that async.queue take as input ?
+
+- Task function
+- Concurrency value
+
+# Difference between spawn() and fok() methods in Node.js?
+
+- Spawn() :- use to lunch a new process whith the provided set of commands.
+- fork() :- it is a spacial instance of spawn() that executes a new instance of the V8 engine.
+
 # What do you understand by global in objects in Node.js?
 
 - Globals are the objects which are global in nature and are avilable in all the modules of the application.
 - The global objects can be modules, functions, strings, object,etc.
 
-# Wxplain the puropse of Expressjs package?
+# How assert works in Node.js ?
+
+- Assert is use to write tests.
+- it only provides feedback only when any of the running test cases fails.
+- This module gives You a set of assertion tasks which are then used for testing inverants.
+- it is basically used internally By node.js but using require('assert') code, it can be used in other applications as well.
+
+# Define the concept of the text pyramid. Explain the process to implement then in terms of HTTP APIs.
+
+- The test pyramid is basically a concept that is developed by mike cohn.
+- The consept say that, You should have a higher mumber of low-level unit tests as compared to high-lavel end-to-end tests tat running through a GUI.
+- In terms of HTTP APIs it may ne defined as 
+   - A igher number of low-level usit tests for each module.
+   - Lesser integration ests to test model interactions
+   - Lesser acceptence tests for testing actual HTTP endpoint.
+
+# Explain the puropse of Expressjs package?
 
 - Expess.js is a framework built on top of node.js that faciltates the **management of the flow of data between server and routes in the server-dide application**.
+
+- it is a lightweight and flexhle framwork that provides a wide range of features for web application.
+
+# Explain the usege of buffer calss in Node.js ?
+
+- uffer class in Node.js is used for storing the row data in a similar manner of an array of integers.
+- But it corresponds to a raw memory allocation that is located outside the V8 heap.
+- it is a global call that is easily accesible can be accessed in an application without importing a buffer module.
+- Buffer calss is used becous pure javaScript in not compatible wtih binary data.
+
+# How dose node.js handle the child threads?
+
+- You can still make use of the child thread using spawn() for some spacific asynchronous I/O tasks.
+- if You still want to use the threading concept in Your application you have to includ a module called childprocess explictly.
+
+
+# What is use of NODE_ENV ?
+
+- if the project is the production state, Node.js promotes the convention of making use of NODE_ENV variable to flage it.
+- This helps in taking batter judgement during the development of the project.
+
+# List down the vaious timing features of Node.js.
+
+- setTimeout/clearTimeout
+- setInterval/clearInterval
+- setImmediate/cleareImmediate
+- process.nextTrick
+
+# Explain the concept of punycode in Node.js?
+
+- punycode is an encoding syntax that is used for converting Unicode (UTF-8)  string of charaters into a basic ASCII string characters.
+- it is importend as the hostnames can only understand the ASCII characters.
+- Node.js version 0.6.2 onwords. it was bundled up with default node package.
+
+# Diff btn Node.js and Ajax?
+- **Node.js** is server side technolgy
+- Required to develop the server software that are typically executed by the server instead of the web browser.
+
+- **Ajex** is client-side technology
+- Required for updating or madifying the webpage contents without having to refresh it.
+
+# What do you understand by an event Emitter in Node.js?
+
+- EventEmitter is node.js class that includes all the objects that are capable of emitting event.
+
+<img width="237" alt="image" src="https://github.com/pattjoshi/interview-Q-A/assets/78966839/dfd09420-4a95-4176-a0e0-42e887382683">
+
 
 # Explain the reason as to why Express 'app' and 'server' must be kept separate.
 
@@ -214,7 +298,27 @@
 - it allows testing the API in-process without having to perform the network calls.
 - Better Separation of conncerns and cleaner code.
 
+
+# What is the use of middleware in Node.js?
+
+- A middleware in simple function that has the ablity to handle incoming requrest and outbound response object.
+
+- middleware is used primarily for the following tasks: 
+  - Execution of code (of any type)
+  - Updation of request and response objects
+  - completion fo request-response interations
+  - calling the next middleware.
+
+
+
 ---
+# (Yotub socse)[https://www.youtube.com/watch?v=6WYEmUVhiwQ] 👆
+# (youtb)[https://www.youtube.com/watch?v=7npkRw7gMRA&t=155s]
+
+---
+
+ 
+
 
 
 
