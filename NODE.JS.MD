@@ -149,15 +149,23 @@
 
 - The first argument in the function is reserved for the error object. If any error has occurred during the execution of the function, it will be returned by the first argument.
 
-
-
-
+<img width="301" alt="image" src="https://user-images.githubusercontent.com/78966839/183675075-aaaedcaa-de2c-4dcc-98ae-46171e241876.png">
 
 ---
 
 # What is the purpose of module.exports?
 
 - Module exports are the instructions that tell Node. js which bits of code to export from a given file so that **other files are allowed to access the exported code**.
+
+
+# What do you understand by reactor Pattern in Node.js?
+
+- Reactor Pattern in Node.js is basically a concept of non-blocking i/o operaction.
+- This pattrn provides a handler that is associated with i/o operaction.
+- As soon as an i/o request is gentrated, it is then submitted to a demultiplexer.
+- This demultiplexer is a notification interface which is capable of handling concurrency in non-blocking i/o module.
+- It also helps in collecting each and every request in the form of an event and then place each event in a queue.
+- Thus resulting  in the generation of the Event queue.
 
 # what's the difference between 'front-end' and 'back-end' developer?
 
@@ -208,7 +216,6 @@
 
 ---
 
-<img width="301" alt="image" src="https://user-images.githubusercontent.com/78966839/183675075-aaaedcaa-de2c-4dcc-98ae-46171e241876.png">
 
 
 
