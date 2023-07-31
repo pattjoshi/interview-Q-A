@@ -143,14 +143,15 @@
 
 ---
 
-<<<<<<< HEAD
 # What is an error-first callback in Node.js?
 
 - Error-First Callback in Node. js **is a function which either returns an error object or any successful data returned by the function**.
 
 - The first argument in the function is reserved for the error object. If any error has occurred during the execution of the function, it will be returned by the first argument.
 
-## img
+
+
+
 
 ---
 
@@ -205,9 +206,19 @@
 - it allows testing the API in-process without having to perform the network calls.
 - Better Separation of conncerns and cleaner code.
 
-  - windown + . open emoji
-=======
+---
+
 <img width="301" alt="image" src="https://user-images.githubusercontent.com/78966839/183675075-aaaedcaa-de2c-4dcc-98ae-46171e241876.png">
 
 
->>>>>>> 1cc7216dc94cd3b7a2662ce71b7fc84dedd00158
+
+
+
+
+
+
+
+
+
+
+
