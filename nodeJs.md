@@ -301,19 +301,24 @@
 
 # What is the use of middleware in Node.js?
 
-- A middleware in simple function that has the ablity to handle incoming requrest and outbound response object.
+- A middleware in the simple function that has the ability to handle incoming request and outbound response objects.
 
 - middleware is used primarily for the following tasks: 
   - Execution of code (of any type)
   - Updation of request and response objects
-  - completion fo request-response interations
+  - completion of request-response interactions
   - calling the next middleware.
 
+# why do we use express.js instead of node.js in express
+
+- Express is built on top of Node, so yes, Express adds more features while building apps. 
+-  Node is just a Javascript environment with libraries to make it easy to write software, whereas Express extends Node specifically to add middleware, routing.
+-   Express.js makes the development process more straightforward and efficient by providing higher-level abstractions for common web application tasks while still leveraging the power and flexibility of Node.js underneath.
 
 
 ---
-# (Yotub socse)[https://www.youtube.com/watch?v=6WYEmUVhiwQ] 👆
-# (youtb)[https://www.youtube.com/watch?v=7npkRw7gMRA&t=155s]
+# [Yotub socse](https://www.youtube.com/watch?v=6WYEmUVhiwQ) 👆
+# [youtb](https://www.youtube.com/watch?v=7npkRw7gMRA&t=155s)
 
 ---
 
