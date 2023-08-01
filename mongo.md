@@ -1,4 +1,4 @@
-<img width="422" alt="image" src="https://github.com/pattjoshi/interview-Q-A/assets/78966839/a14c7ffd-05c6-45fe-a89a-d1812196befe"># Explain what is MongoDB and its features?
+# Explain what is MongoDB and its features?
 
 - MongoDB is a NoSQL (not only SQL) database that stores large volumes of data in the form of documents. This offers the developers the flexibility to work with evolving data models.
 
