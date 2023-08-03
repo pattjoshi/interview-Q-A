@@ -5,9 +5,9 @@
 ## Full Stack (MERN)
 - From what I understand, the key requirement for the role is to build an efficient Full Stack application. I'm deeply passionate about building quality web applications. 
 
-- I have experience in Full Stack (MERN) Application .
+- I have experience in Full Stack (MERN) Applications including next.js and tailwind CSS.
 
-- which includes MongoDB, Express.js, React.js, and Node.js. I have hands-on experience in developing end-to-end web applications using these technologies.
+- I have hands-on experience in developing end-to-end web applications using these technologies.
 
 - Problem-solving abilities: I possess strong problem-solving skills and enjoy tackling complex challenges.
 
@@ -18,14 +18,13 @@
 
 ## Frontend develper (react.js)
 
-- From what I understand, the key requirement for the role is to build an efficient front end user interface.
+- From what I understand, the key requirement for the role is to build an efficient front-end user interface.
 
 -  I'm deeply passionate about building quality web applications. 
 
--  I have experience in javascript React.js framework and can deliver completes front-end application.
+-  I have experience with the React.js framework  next.js and can deliver complete front-end applications.
 
-- I have a strong foundation in Full stack development technologies such as HTML, CSS, JavaScript.
-react.js , redux,node.js, mongoDb,express.js.
+- I have a strong foundation in Full Stack (MERN) Applications including next.js and tailwind CSS.
 
 - With my expertise in React.js, strong frontend development skills, focus on responsive and accessible design, UI/UX sensibilities, problem-solving abilities, collaboration mindset, and dedication to continuous learning, I am confident that I can make a valuable contribution to the frontend development team and help create outstanding user experiences.
 
