@@ -13,17 +13,17 @@
 
 #### told about u (Name,place,higest education):-
 - Good morning, sir. Thank you for the opportunity to introduce myself.
--  My name is Om Prakash Patjoshi, and I am 21 years old. I am from Kalahandi, Odisha, and I am currently pursuing my B.Tech in CSE at GIET University in Gunupur. I completed my intermediate education at Vikash Residential College in Bhawanipatna and my matriculation at S.S.V.M. Dharmagarh
+-  My name is Om Prakash Patjoshi, and I am 21 years old. from Odisha, and I am currently pursuing my B.Tech in CSE at GIET University in Gunupur. I completed my intermediate education at Vikash Residential College in Bhawanipatna.
 
 
 #### Technical skills:-
 - I am an Enthusiast and love Web Development.
 
 - I have Worked on Front-end technologies(BootStraps5, JavaScriptES6, material UI, and other JS Libraries like React.js), 
-Back-end technologies(Node,Express.js)Database(MongoDB),Familiarity with code versioning tools ( Git, GitHub) .
+Back-end technologies(Node,Express.js)Database(MongoDB), Familiarity with code versioning tools ( Git, GitHub) .
 
 #### projects
-- I create 3  Project.i also worked front-end Intern at xyz company last year. 
+- I create 3  Projects.i also worked front-end Intern at XYZ company last year. 
 
 ### achievement
 - Secured Winners at Web of War. The Event was Organised by GIET University in a Tech-fest in March 2022.
