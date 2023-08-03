@@ -16,7 +16,7 @@
 ---
 # Why should you be hired for this role?
 
-## Frontend develper (react.js)
+## Frontend developer (Next.js)
 
 - From what I understand, the key requirement for the role is to build an efficient front-end user interface.
 
@@ -26,7 +26,7 @@
 
 - I have a strong foundation in Full Stack (MERN) Applications including next.js and tailwind CSS.
 
-- With my expertise in React.js, strong frontend development skills, focus on responsive and accessible design, UI/UX sensibilities, problem-solving abilities, collaboration mindset, and dedication to continuous learning, I am confident that I can make a valuable contribution to the frontend development team and help create outstanding user experiences.
+- With my expertise in Next.js, strong frontend development skills, focus on responsive and accessible design, UI/UX sensibilities, problem-solving abilities, collaboration mindset, and dedication to continuous learning, I am confident that I can make a valuable contribution to the frontend development team and help create outstanding user experiences.
 
 ---
 
