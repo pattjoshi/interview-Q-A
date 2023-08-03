@@ -1,6 +1,11 @@
 # Hear i Keep My Hr qus for Interview !
 
-## 1)about Highradius/accenture/our company?
+# HR:-  how are you?
+
+- Feeling positive, and eager to discuss my qualifications and contribute to [Company Name]'s success.
+
+
+## 1)about Highradius/Accenture/our company?
 
 - **Company Name** is one of the quickest developing and driving IT firms in India.
 - I read on Your website that DePronto Infotech is a Software Development Company.
@@ -23,7 +28,9 @@
 Back-end technologies(Node,Express.js)Database(MongoDB), Familiarity with code versioning tools ( Git, GitHub) .
 
 #### projects
-- I create 3  Projects.i also worked front-end Intern at XYZ company last year. 
+- I create 3  Projects.
+- describe the project and some key points. (only in technical interview)
+- I also worked front-end Intern at XYZ company last year. 
 
 ### achievement
 - Secured Winners at Web of War. The Event was Organised by GIET University in a Tech-fest in March 2022.
