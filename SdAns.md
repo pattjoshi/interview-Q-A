@@ -73,6 +73,23 @@ It is returned when a mathematical operation is performed, but the result is not
 # 14. Object destructuring:
 - Object destructuring is a way to extract properties from an object and assign them to variables in a more concise manner.
 
+# Difference Between Rest & Spread Operator?
+
+- **Spread Operator (...)**
+
+- Syntax: ...variable
+- Used in: **Function calls**, array literals, and object literals.
+- Purpose: It spreads or expands the elements of an array or the properties of an object into individual elements or properties.
+
+- **Rest Operator (...)**
+
+- Syntax: ...variable
+- Used in **Function parameters** (function arguments) and destructuring assignments.
+- Purpose: It collects the rest of the elements into an array when working with function arguments or destructuring arrays or objects.
+
+- In summary, the Spread operator is used to expand elements or properties, while the Rest operator is used to collect the remaining elements or properties into an array or object.
+
+
 # 15. Callback:
 - A callback is a function that is passed as an argument to another function and is executed after the completion of that function.
 
