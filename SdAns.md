@@ -119,10 +119,44 @@ It is returned when a mathematical operation is performed, but the result is not
 - "Null" represents the intentional absence of a value and is usually assigned by the programmer.
 - "Undefined" means a variable has been declared but hasn't been assigned any value yet.
 
-# 23. Explain the use of the "this" keyword in JavaScript.
+# 23. web pack and Bable
 
-- "this" refers to the current context or object within a function or method.
-- Its value is determined by how a function is called, and it can change based on the context of the execution.
+### Webpack
+- Webpack is a module bundler for JavaScript applications that takes modules with dependencies and generates static assets representing those modules. It's used to package JavaScript files for usage in a browser.
+
+### Bable
+- Babel is a compiler (or transpiler) that transforms modern ECMAScript (JavaScript) code into a backward compatible version of JavaScript that can run in older browsers or environments. It's mainly used to convert ECMAScript 2015+ code into a backward-compatible version of JavaScript.
+
+# 24. async await
+
+- async/await is a syntactic feature in JavaScript used to write asynchronous code in a more synchronous-like manner.
+-  It allows developers to work with promises using a more familiar and readable syntax.
+-  By using the async keyword before a function and await before a promise, developers can write asynchronous code that appears to execute in a sequential and straightforward manner.
+
+# 25 What are promises in j.s?
+
+- Promises in JavaScript are a way to handle asynchronous operations. They are objects that represent the eventual completion (or failure) of an asynchronous operation and allow developers to write more readable and structured code for handling asynchronous tasks.
+-  Promises have three states: pending (initial state), fulfilled (operation succeeded), and rejected (operation failed).
+- They provide methods like .then() and .catch() to handle the successful and error outcomes of asynchronous operations in a more organized and predictable manner.
+
+# What is curring?
+
+- Currying is a functional programming technique in which a function that takes multiple arguments is transformed into a series of functions, each taking a single argument.
+-  Instead of calling the function with all its arguments at once, you call it with one argument at a time, and it returns a new function that takes the next argument, and so on until all arguments are received.
+
+```
+// Curried version of the same function
+function curriedAdd(a) {
+  return function (b) {
+    return function (c) {
+      return a + b + c;
+    };
+  };
+}
+
+// Usage of the curried function
+const result = curriedAdd(1)(2)(3); // result will be 6
+```
 
 ---
 
@@ -179,7 +213,7 @@ It is returned when a mathematical operation is performed, but the result is not
 # 10. Inline conditional expressions:
 
 - Inline conditional expressions in JSX allow rendering different content based on a condition.
--  The syntax involves using the ternary operator, for example: {isLogged ? <LoggedInComponent /> : <LoggedOutComponent />}.
+-  The syntax involves using the ternary operator, for example: {isLogged? <LoggedInComponent /> : <LoggedOutComponent />}.
 
 # 11. React uses virtual DOM or real DOM?
 
