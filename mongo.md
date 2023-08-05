@@ -14,6 +14,11 @@
 
 <img width="406" alt="image" src="https://github.com/pattjoshi/interview-Q-A/assets/78966839/8d2be985-1767-48bf-b011-1dbd2385f4cb">
 
+# Difference between a JSON and BSON?
+
+- JSON (JavaScript Object Notation) is a human-readable text-based data format, while BSON (Binary JSON) is a binary representation of JSON that is more compact and efficient for storage and transmission.
+-  BSON supports more data types and is commonly used in databases like MongoDB. JSON is widely used for data interchange between web clients and servers.
+
 # MongoDB is a Schema-less database. if Yes, How do you create Schema in MongoDB?
 
 - The schema of a database describes the structure of the data to be stored.
