@@ -232,6 +232,20 @@
 - This module gives You a set of assertion tasks which are then used for testing inverants.
 - it is basically used internally By node.js but using require('assert') code, it can be used in other applications as well.
 
+# Difference bteween Authenticate and Authorize? 
+
+- **Authenticate:** Verify the identity of a user.
+- **Authorize:** Determine what actions or resources a user is allowed to access.
+
+# what is JWT?
+
+- JWT stands for JSON Web Token
+- JWTs are used to securely transmit information between two parties as a JSON object.
+-  They are commonly used for authentication and authorization in web applications.
+
+
+
+
 # Define the concept of the text pyramid. Explain the process to implement then in terms of HTTP APIs.
 
 - The test pyramid is basically a concept that is developed by mike cohn.
