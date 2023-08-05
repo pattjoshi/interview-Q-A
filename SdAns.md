@@ -139,7 +139,7 @@ It is returned when a mathematical operation is performed, but the result is not
 -  Promises have three states: pending (initial state), fulfilled (operation succeeded), and rejected (operation failed).
 - They provide methods like .then() and .catch() to handle the successful and error outcomes of asynchronous operations in a more organized and predictable manner.
 
-# What is curring?
+# 26.What is curring?
 
 - Currying is a functional programming technique in which a function that takes multiple arguments is transformed into a series of functions, each taking a single argument.
 -  Instead of calling the function with all its arguments at once, you call it with one argument at a time, and it returns a new function that takes the next argument, and so on until all arguments are received.
@@ -157,6 +157,10 @@ function curriedAdd(a) {
 // Usage of the curried function
 const result = curriedAdd(1)(2)(3); // result will be 6
 ```
+# 27. what is temporal dead zone js? 
+
+- Temporal Dead Zone (TDZ) in JavaScript refers to the period between the creation of a variable using let or const and the point where it is initialized with a value.
+- During this period, accessing the variable will result in a ReferenceError. It helps to catch potential errors and enforce better coding practices.
 
 ---
 
