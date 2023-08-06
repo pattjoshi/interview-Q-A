@@ -164,11 +164,11 @@ const result = curriedAdd(1)(2)(3); // result will be 6
 
 ---
 
-# IIFE :- 
+# 28.IIFE :- 
 - Immediately Invoked Function Expression (IIFE) is a JavaScript function that is executed immediately after it is defined.
 -  It is typically used to create a private scope for variables and avoid polluting the global scope. 
 
-# map() filter() reduxe() :- 
+# 29.map() filter() reduxe() :- 
 
 - map(): It creates a new array by applying a callback function to each element of the original array. The callback function can modify the elements and return the new values.
 
@@ -189,6 +189,15 @@ const adults = ages.filter((age) => age >= 18); // Result: [25, 30, 18, 40]
 const nums = [1, 2, 3, 4];
 const sum = nums.reduce((acc, num) => acc + num, 0); // Result: 10
 ```
+
+# 31. what is call stack?
+- In JavaScript, the call stack is a mechanism that keeps track of function calls during the execution of a program.
+-  It allows functions to be called and executed in a Last-In-First-Out (LIFO) order, ensuring proper control flow and returning from function calls to the correct locations in the code.
+
+# 32. what is an event loop? how it works?
+
+- It continuously checks the call stack and the message queue.
+- When the call stack is empty, it picks up messages from the queue and adds corresponding callback functions to the call stack for execution. This process allows JavaScript to handle asynchronous tasks, such as timers, I/O operations, and event handling, without blocking the main thread, making the code non-blocking and more responsive.
 
 
 # REACT.JS
