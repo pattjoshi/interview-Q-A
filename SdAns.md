@@ -164,6 +164,33 @@ const result = curriedAdd(1)(2)(3); // result will be 6
 
 ---
 
+# IIFE :- 
+- Immediately Invoked Function Expression (IIFE) is a JavaScript function that is executed immediately after it is defined.
+-  It is typically used to create a private scope for variables and avoid polluting the global scope. 
+
+# map() filter() reduxe() :- 
+
+- map(): It creates a new array by applying a callback function to each element of the original array. The callback function can modify the elements and return the new values.
+
+- filter(): It creates a new array containing only the elements that pass a given condition specified in the callback function.
+
+- reduce(): It reduces the elements of an array to a single value by applying a callback function that accumulates the results. It iterates through the array, maintaining an accumulator that stores the intermediate result.
+
+```
+// map()
+const numbers = [1, 2, 3, 4];
+const doubled = numbers.map((num) => num * 2); // Result: [2, 4, 6, 8]
+
+// filter()
+const ages = [25, 30, 18, 40];
+const adults = ages.filter((age) => age >= 18); // Result: [25, 30, 18, 40]
+
+// reduce()
+const nums = [1, 2, 3, 4];
+const sum = nums.reduce((acc, num) => acc + num, 0); // Result: 10
+```
+
+
 # REACT.JS
 
 ---
