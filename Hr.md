@@ -52,52 +52,22 @@ Back-end technologies(Node,Express.js)Database(MongoDB), Familiarity with code v
 - I always try to understand the situation from both micro and macro perspectives. this not only helps me to think outside the box but also makes me more flexible  and adaptable to word the situation.
 
 # 4)Tell me something about ur project.
-- **(details about it,what technolgies i used and what challanged i faced,how did u divide the work)**
+- **(details about it,what technologies i used and what challenged i faced,how did u divide the work)**
 
 - "Sure, I'd be happy to talk about one of my recent projects.
-- **Project Description:**
-- The MERN Marketplace is an innovative e-commerce application that enables users to become sellers and manage their shops by adding products for sale. Additionally, customers visiting the platform will have the ability to search, browse, and add products to their shopping cart, facilitating a seamless ordering process. The application will incorporate three distinct order methods to cater to various customer preferences.
 
-- **Role and Responsibilities:**
-  - As a developer in the MERN Marketplace project, my primary responsibilities include:
+- **Technologies** :-
+- E-commerce Multi vendor website is created by MERN including TailwindCss and MaterialUI.
+- JWT Authentication,node_mailer use for email verification, Dynamic routing react-router-Dom,state-Management redux, Payment method pay-pal, strip, COD, real-time communication SOCKET.IO
 
-- **Backend Development:** Implementing the server-side logic using the MERN stack (MongoDB, Express.js, Node.js) to handle user authentication, shop management, and product functionalities.
-
-- **Frontend Development:** Designing and building user interfaces using React.js and Tailwind CSS to provide an intuitive and user-friendly experience for both sellers  customers and Admin.
-
-- **Database Management:** Creating and maintaining the MongoDB database to store shop and product information, user data, and order details.
-
-- **User Authentication:** Implementing secure user authentication and authorization mechanisms to control functionality based on user roles (Seller, Customer, Admin).
-
-- **Shop and Product Management**: Developing features to enable sellers to create and manage their shops, add products, set prices, and update product inventory.
-
-- **Order Processing:** Integrating the three order methods (e.g., standard shipping, express delivery, in-store pickup) to allow customers to choose their preferred way of receiving their orders.
-
-- **Admin Controls:** Implementing administrative functionalities for the admin user to manage seller users, control their privileges, and oversee the overall application.
+- it has 3 portals, user, seller, and admin
+- after successful login user redirect to the home page, user can filter and search for the product to add to the cart apply the coupon code buy product 3 payment method, and complement  user can refund the product and track the order give a review
+- user can become a seller, but the seller is not Autharize to give a review
+- seller uploads products and set event time, gives coupon code for the shop
+- Admin has all control of web site and takes 10% off total seller income. hole control of seller and user
+-  Admin can delete,seller,user and product
 
 
-- **Responsive Design:** Ensuring the application is fully responsive to support various devices, such as desktops, tablets, and mobile phones.
-
-- **Key Features and Achievements:**
-- The MERN Marketplace application boasts several key features and accomplishments, including:
-
-- User-Friendly Interface: A modern and intuitive interface that provides seamless navigation for both sellers and customers.
-
-- Shop Management: Sellers can easily create and manage their shops, upload product images, and set prices.
-
-- Product Search and Browsing: Customers can search for specific products, explore categories, and view detailed product information.
-
-- Shopping Cart: An interactive shopping cart that allows customers to add products and place orders effortlessly.
-
-- Secure User Authentication: Robust user authentication and role-based access control to ensure data security and privacy.
-
-- Order Methods: Customers have the option to select from three different order methods, providing flexibility and convenience.
-
-- Admin Control: The admin has full control over seller users and the ability to manage the overall application.
-
-- **Conclusion:**
-
-The MERN Marketplace project is an exciting and comprehensive e-commerce platform that empowers sellers and customers alike. By leveraging the power of the MERN stack, the application delivers a smooth and enjoyable shopping experience for users. It is a project that showcases my skills in both frontend and backend development, as well as my ability to design user-centric features. I am proud to have been part of this innovative project that brings the joy of online shopping to users around the world.
 
 # 6)Have u organized any event in ur clg?(say yes)
 
