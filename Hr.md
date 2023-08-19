@@ -58,7 +58,7 @@ Back-end technologies(Node,Express.js)Database(MongoDB), Familiarity with code v
 
 - **Technologies** :-
 - E-commerce Multi vendor website is created by MERN including TailwindCss and MaterialUI.
-- JWT Authentication,node_mailer use for email verification, Dynamic routing react-router-Dom,state-Management redux, Payment method pay-pal, strip, COD, real-time communication SOCKET.IO
+- JWT Authentication,node_mailer use for email verification, Dynamic routing react-router-Dom,state-Management redux, Payment method pay-pal, strip, COD, real-time communication SOCKET.IO, Deployment website Frontend- varsel , Back-end :- Heroku
 
 - it has 3 portals, user, seller, and admin
 - after successful login user redirect to the home page, user can filter and search for the product to add to the cart apply the coupon code buy product 3 payment method, and complement  user can refund the product and track the order give a review
