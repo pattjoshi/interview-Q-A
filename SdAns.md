@@ -36,6 +36,23 @@ They "remember" the environment in which they were created.
 - Higher-order functions are functions that take one or more functions as arguments or return a function as a result.
 - They enable functional programming paradigms and allow for code reuse and composition.
 
+```
+// Callback function, passed as a parameter in the higher order function
+function callbackFunction(){
+    console.log('I am  a callback function');
+}
+
+// higher order function
+function higherOrderFunction(func){
+    console.log('I am higher order function')
+    func()
+}
+
+higherOrderFunction(callbackFunction);
+
+```
+  
+
 # 6. "this" keyword:
 
 In JavaScript, this refers to the object that the function is bound to and its value depends on how the function is called.
