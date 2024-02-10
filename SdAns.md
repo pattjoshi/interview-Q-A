@@ -80,8 +80,14 @@ It is returned when a mathematical operation is performed, but the result is not
 - Objects can be created using object literals { } or the Object constructor: let obj = new Object();.
 
 # 11. Normal function vs. arrow function:
-- Normal functions have their own this context, which is dynamically determined at runtime based on how the function is called.
-- Arrow functions do not have their this context, and instead, they lexically inherit the this value from their enclosing scope.
+
+- Arguments objects are not available in the arrow function.
+- Regular functions created using function declarations or expressions are 'constructible' and 'callable'
+- arrow function does not have their own this
+- implicitly returned by the arrow function
+
+- [you tub](https://www.youtube.com/shorts/e4XqkHy4VFs)
+
 
 # 12. Difference between == and ===:
 - == is the equality operator and performs type coercion, meaning it converts operands to the same type before comparison.
