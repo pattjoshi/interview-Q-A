@@ -86,7 +86,7 @@ It is returned when a mathematical operation is performed, but the result is not
 - arrow function does not have their own this
 - implicitly returned by the arrow function
 
-- [you tub](https://www.youtube.com/shorts/e4XqkHy4VFs)
+- [you tub](https://www.youtube.com/watch?v=Wdlu_wlj6as&t=212s)
 
 
 # 12. Difference between == and ===:
@@ -225,6 +225,10 @@ const sum = nums.reduce((acc, num) => acc + num, 0); // Result: 10
 
 - It continuously checks the call stack and the message queue.
 - When the call stack is empty, it picks up messages from the queue and adds corresponding callback functions to the call stack for execution. This process allows JavaScript to handle asynchronous tasks, such as timers, I/O operations, and event handling, without blocking the main thread, making the code non-blocking and more responsive.
+
+# Macro task V/s Micro task (event loop)
+
+# call apply bind Method in js 
 
 
 # REACT.JS
