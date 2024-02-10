@@ -55,8 +55,12 @@ higherOrderFunction(callbackFunction);
 
 # 6. "this" keyword:
 
-In JavaScript, this refers to the object that the function is bound to and its value depends on how the function is called.
-It can be explicitly set using call, apply, or bind.
+- this keyword is a spacial keyword in js which changes its value in different contexts.
+- in global scope, it gives a window.
+- in function scope it gives a window
+- in method scope give the object
+
+- in any method, this keyword refers current execution of a code. (parent obj)
 
 # 7. NaN property in JavaScript:
 
