@@ -18,11 +18,21 @@
 
 - The process of going one by one to parent and checking for values is called scope chain or Lexcial environment chain.
 
+```
+function x() {
+  function y() {
+    console.log(a);
+  }
+  y();
+}
+var a = 10;
+x();
+```
 
 
 # 3. Hoisting:
 
-- Hoisting is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting errors and this is happening due to the 1st phase (memory creation phase) of the Execution Context.
+- Hoisting is a concept that enables us to extract values of variables and functions even before initializing/assigning value without getting errors and this is happening due to the 1st phase (memory creation phase) of the Execution Context.
 
 # 4. Closures:
 
@@ -30,6 +40,31 @@
 
 - Closures are functions that have access to variables from their outer (enclosing) function even after the outer function has finished executing.
 They "remember" the environment in which they were created.
+
+
+```
+function display() {
+  var naem = "om";
+  function saymuName() {
+    console.log(naem);
+  }
+  return saymuName();
+}
+
+var myfn = display;
+myfn();
+```
+
+ - Advantages of Closure:
+    -  Module Design Pattern
+     - Currying
+    -  Memoize
+    - Data hiding and encapsulation
+    - setTimeouts etc.
+-  Disadvantages of Closure:
+    - Overconsumption of memory
+    - Memory Leak
+    - Freeze browser
 
 # 5. Higher-order function:
 
@@ -57,8 +92,29 @@ higherOrderFunction(callbackFunction);
 
 - this keyword is a spacial keyword in js which changes its value in different contexts.
 - in global scope, it gives a window.
-- in function scope it gives a window
+  
+  `console.log(this); `
+- in function scope, it gives a window
+
+`
+function abc() {
+  console.log(this);
+}
+abc();
+`
+
 - in method scope give the object
+
+```
+var obj = {
+  name: "om",
+  saymyName: function () {
+    console.log(this);
+  },
+};
+
+console.log(obj);
+```
 
 - in any method, this keyword refers current execution of a code. (parent obj)
 
