@@ -288,17 +288,41 @@ console.log(y, z);    // 1 , 34
 ### Bable
 - Babel is a compiler (or transpiler) that transforms modern ECMAScript (JavaScript) code into a backward compatible version of JavaScript that can run in older browsers or environments. It's mainly used to convert ECMAScript 2015+ code into a backward-compatible version of JavaScript.
 
-# 24. async await
+
+# 24 What are promises in j.s?
+
+- Promises in JavaScript are a way to handle asynchronous operations. They are objects that represent the eventual completion (or failure) of an asynchronous operation and allow developers to write more readable and structured code for handling asynchronous tasks.
+-  Promises have three states: pending (initial state), fulfilled (operation succeeded), and rejected (operation failed).
+- They provide methods like .then() and .catch() to handle the successful and error outcomes of asynchronous operations in a more organized and predictable manner.
+
+```
+function resolveAfter2Seconds() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('resolved');
+    }, 2000);
+  });
+}
+```
+
+
+# 25. async await
 
 - async/await is a syntactic feature in JavaScript used to write asynchronous code in a more synchronous-like manner.
 -  It allows developers to work with promises using a more familiar and readable syntax.
 -  By using the async keyword before a function and await before a promise, developers can write asynchronous code that appears to execute in a sequential and straightforward manner.
 
-# 25 What are promises in j.s?
+```
+async function asyncCall() {
+  console.log('calling');
+  const result = await resolveAfter2Seconds();
+  console.log(result);
+  // Expected output: "resolved"
+}
 
-- Promises in JavaScript are a way to handle asynchronous operations. They are objects that represent the eventual completion (or failure) of an asynchronous operation and allow developers to write more readable and structured code for handling asynchronous tasks.
--  Promises have three states: pending (initial state), fulfilled (operation succeeded), and rejected (operation failed).
-- They provide methods like .then() and .catch() to handle the successful and error outcomes of asynchronous operations in a more organized and predictable manner.
+asyncCall();
+
+```
 
 # 26.What is curring?
 
@@ -325,9 +349,16 @@ const result = curriedAdd(1)(2)(3); // result will be 6
 
 ---
 
-# 28.IIFE :- 
+# 28.IIFE:- 
 - Immediately Invoked Function Expression (IIFE) is a JavaScript function that is executed immediately after it is defined.
 -  It is typically used to create a private scope for variables and avoid polluting the global scope. 
+
+```
+(function () {
+  // …
+})();
+```
+
 
 # 29.map() filter() reduxe() :- 
 
