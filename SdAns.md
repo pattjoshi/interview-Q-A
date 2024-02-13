@@ -221,6 +221,16 @@ console.log(marks());   // 100
 
 # 14. Object destructuring:
 - Object destructuring is a way to extract properties from an object and assign them to variables in a more concise manner.
+- operate in index wise.
+
+```
+const x = [1, 34, 10, 4, 2, 6];
+
+const [y, z] = x;
+
+console.log(y, z);    // 1 , 34
+```
+
 
 # Difference Between Rest & Spread Operator?
 
@@ -241,6 +251,8 @@ console.log(marks());   // 100
 
 # 15. Callback:
 - A callback is a function that is passed as an argument to another function and is executed after the completion of that function.
+- Because of Callback we achieved Asynchronous Programming in JavaScript.
+- Ex:- setTimeout
 
 # 16. Callback hell:
 - Callback hell refers to the situation where multiple nested callbacks make the code difficult to read and maintain.
