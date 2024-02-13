@@ -138,9 +138,75 @@ It is returned when a mathematical operation is performed, but the result is not
 # 11. Normal function vs. arrow function:
 
 - Arguments objects are not available in the arrow function.
-- Regular functions created using function declarations or expressions are 'constructible' and 'callable'
+
+```
+function add(a, b) {
+  console.log(arguments);
+  return a + b;
+}
+
+add(3, 4);  // it give paramenter
+
+// in Arrow function it give error 
+
+const Aero = (a, b) => {
+  arguments;
+  console.log(a, b);
+};
+Aero(4, 5);   //  Uncaught ReferenceError: arguments is not defined
+
+```
+- Arrow functions cannot be used as constructors.
+
+```
+function Car(name) {
+  this.bran = name;
+}
+
+let CarData = new Car("Maruti");
+console.log(CarData);  // Car {bran: 'Maruti'}
+
+const car = (name) => {
+  this.brand = name;
+};
+let carData = new car("maruti");
+console.log(carData);    // Uncaught TypeError: car is not a constructor
+```
+
 - arrow function does not have their own this
+
+```
+let userInfo = {
+  name: "code Improve",
+  fullName() {
+    console.log(this.name + " narmal function");
+  },
+};
+
+userInfo.fullName(); // code Improve narmal function
+
+let userInfo = {
+  name: "code Improve",
+  fullName: () => {
+    console.log(this.name + " Arrow function");  //  Arrow function
+  },
+};
+
+// arrow function does not have their own this
+```
+
 - implicitly returned by the arrow function
+
+```
+function marks() {
+  100;
+}
+console.log(marks());  // undefined
+
+const marks = () => 100;
+console.log(marks());   // 100
+
+```
 
 - [you tub](https://www.youtube.com/watch?v=Wdlu_wlj6as&t=212s)
 
