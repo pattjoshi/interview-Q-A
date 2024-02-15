@@ -240,6 +240,17 @@ console.log(y, z);    // 1 , 34
 - Used in: **Function calls**, array literals, and object literals.
 - Purpose: It spreads or expands the elements of an array or the properties of an object into individual elements or properties.
 
+```
+function sum(x, y, z) {
+  return x + y + z;
+}
+
+const numbers = [1, 2, 3];
+
+console.log(sum(...numbers));
+```
+
+
 - **Rest Operator (...)**
 
 - Syntax: ...variable
@@ -248,6 +259,17 @@ console.log(y, z);    // 1 , 34
 
 - In summary, the Spread operator is used to expand elements or properties, while the Rest operator is used to collect the remaining elements or properties into an array or object.
 
+```
+function sum(...theArgs) {
+  let total = 0;
+  for (const arg of theArgs) {
+    total += arg;
+  }
+  return total;
+}
+
+console.log(sum(1, 2, 3));
+```
 
 # 15. Callback:
 - A callback is a function that is passed as an argument to another function and is executed after the completion of that function.
