@@ -46,6 +46,9 @@
 
 - With my extensive Node.js expertise, backend development skills, database management capabilities, API development experience, security focus, problem-solving abilities, collaboration mindset, and dedication to continuous learning, I am confident that I can contribute effectively to the backend development team and help create robust and scalable web applications.
 
+GitHub:- https://github.com/pattjoshi
+Portfolio:- https://portfoliodevom.netlify.app/
+Linkedin:- https://www.linkedin.com/in/om-prakash-pattjoshi-/
 
 
 <img width="440" alt="image" src="https://github.com/pattjoshi/MERN_QUS/assets/78966839/2d764382-30d3-4039-976b-9cc95357615b">
