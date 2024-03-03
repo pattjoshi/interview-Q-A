@@ -440,7 +440,7 @@ const sum = nums.reduce((acc, num) => acc + num, 0); // Result: 10
 - Pure Components are a type of React component that extends React.
 - PureComponent instead of React.Component. They automatically implement a shouldComponentUpdate method with a shallow prop and state comparison, optimizing performance by avoiding unnecessary re-renders.
 
-# 4. State in React:
+# 4. State in React: (hooks)
 
 - State is a mechanism in React that allows components to maintain and manage their internal data.
 - When state data changes, React re-renders the components to reflect those changes in the UI.
@@ -449,6 +449,19 @@ const sum = nums.reduce((acc, num) => acc + num, 0); // Result: 10
 
 - Props are used to pass data from parent to child components, and they are immutable (cannot be changed within the child component).
 - State is used to manage internal component data and can be changed using setState().
+
+# There are several built-in hooks provided by React, including: 
+
+- `useState:` Allows functional components to manage local state.
+- `useEffect:` Enables performing side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM.
+- `useContext:` Provides access to the nearest context within a functional component.
+- `useReducer:` Offers an alternative to useState for managing complex state logic.
+- `useCallback` and `useMemo:` Optimizes performance by memoizing functions and values to prevent unnecessary re-renders.
+- `useRef:` Provides a way to access DOM nodes or store mutable values without causing re-renders.
+- `useLayoutEffect:` Similar to useEffect, but fires synchronously after all DOM mutations. It's typically used for measurements or DOM manipulations that require synchronicity.
+
+
+
 
 # 6. Purpose of the callback function as an argument of setState():
 
