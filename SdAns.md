@@ -271,6 +271,25 @@ function sum(...theArgs) {
 console.log(sum(1, 2, 3));
 ```
 
+# Shallow Copy:
+
+- Shallow copy creates a new object or array, but it only copies the references of the original elements. In other words, it doesn't create copies of nested objects or arrays, but instead, it references them. So, changes made to nested objects or arrays in the copied object will affect the original object and vice versa.
+
+``
+// Or using the spread operator
+const shallowCopy = { ...originalObject };
+``
+
+# Deep Copy:
+
+- Deep copy creates a new object or array and recursively copies all nested objects and arrays within it. This means that any changes made to the copied object or array won't affect the original, and vice versa.
+
+``
+const deepCopy = JSON.parse(JSON.stringify(originalObject));
+// Now changes to deepCopy won't affect originalObject, including nested objects.
+``
+
+
 # 15. Callback:
 - A callback is a function that is passed as an argument to another function and is executed after the completion of that function.
 - Because of Callback we achieved Asynchronous Programming in JavaScript.
@@ -418,6 +437,16 @@ const sum = nums.reduce((acc, num) => acc + num, 0); // Result: 10
 # call apply bind Method in js 
 
 
+# Event bubbling and capturing
+- Event bubbling and capturing are two ways in which events are handled in JavaScript.
+
+- **Event bubbling** means that when an event happens on a particular element, it will also trigger on all of its parent elements. (button to top)
+
+- **Event capturing**, on the other hand, means that the event is first captured by the outermost element and then propagated to the inner elements.(top to button)
+
+In simpler terms, event bubbling moves from the innermost element to the outer elements, while event capturing moves from the outermost element to the inner elements.
+
+
 # REACT.JS
 
 ---
@@ -459,8 +488,6 @@ const sum = nums.reduce((acc, num) => acc + num, 0); // Result: 10
 - `useCallback` and `useMemo:` Optimizes performance by memoizing functions and values to prevent unnecessary re-renders.
 - `useRef:` Provides a way to access DOM nodes or store mutable values without causing re-renders.
 - `useLayoutEffect:` Similar to useEffect, but fires synchronously after all DOM mutations. It's typically used for measurements or DOM manipulations that require synchronicity.
-
-
 
 
 # 6. Purpose of the callback function as an argument of setState():
@@ -548,6 +575,23 @@ const sum = nums.reduce((acc, num) => acc + num, 0); // Result: 10
 <label htmlFor="inputField">Name:</label>
 <input id="inputField" type="text" />
 ```
+
+
+# Controlled Components:
+
+- **In React.js, components can be classified into two main categories: controlled components and uncontrolled components.**
+
+- Controlled components are those where the component's **state is controlled by React**.
+These components receive their current value via props and notify changes via callbacks like onChange.
+The value of the component is always controlled by React's state, and any changes to the component's value are managed by updating the state.
+Example: Input fields, where the value is managed by state and updated through onChange handlers.
+
+# Uncontrolled Components:
+
+- Uncontrolled components are those where the component's **state is not** controlled by React.
+Instead of managing the component's value via state, the value is directly accessed from the DOM using references.
+These components are typically used when you want to integrate with non-React code or when handling form submissions in a traditional manner.
+Example: Traditional HTML form elements where the value is directly accessed from the DOM using refs rather than controlled by React's state.
 
 ---
 # React router
