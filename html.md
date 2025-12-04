@@ -79,12 +79,58 @@ Block-level elements are HTML elements that create a new line and take up the fu
 - The `<input>` element is used to create various types of input fields, such as text, password, checkbox, radio buttons, etc.
 
 
+### 2️⃣ What are HTML tags?
+**Answer:** Tags are predefined keywords enclosed in angle brackets `< >` used to create elements in an HTML document.
+
+### 6️⃣ Purpose of <!DOCTYPE html>?
+- Answer: It tells the browser to use the latest HTML5 standards.
+
+### 7️⃣ Difference between block-level and inline elements?
+
+| Block-level            | Inline                      |
+| ---------------------- | --------------------------- |
+| Takes full width       | Takes only required width   |
+| Starts new line        | Doesn't start new line      |
+| `<div>`, `<p>`, `<h1>` | `<span>`, `<a>`, `<strong>` |
+
+### 🔟 What are self-closing tags?
+
+- Answer: Tags that do not require a closing tag like <br>, <img>, <hr>.
+
+### 14️⃣ What are forms in HTML?
+
+- Answer: Forms collect user input using <form>, <input>, <select>, <textarea>.
+
+### 15️⃣ Difference between <div> and <span>?
+
+- Answer: <div> is block-level (layout container)
+
+- <span> is inline (text wrapper)
 
 
+### 16️⃣ What are global attributes?
+
+Answer: Attributes usable with any HTML element such as id, class, style, title.
+
+### 19️⃣ Difference between id and class?
+
+| id                | class             |
+| ----------------- | ----------------- |
+| Must be unique    | Can be reused     |
+| One element only  | Multiple elements |
+| High CSS priority | Low priority      |
 
 
+22️⃣ What is Web Storage?
 
+- Answer: Stores key-value data locally:
 
+- localStorage: permanent
 
+- sessionStorage: clears on tab close
 
+### 28️⃣ Difference <b> vs <strong>?
 
+- <b> bold only
+
+- <strong> stresses meaning + bold
