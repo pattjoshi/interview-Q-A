@@ -339,6 +339,92 @@ Usage: It allows you to extract and use specific parts of the state stored in th
 
 [youtub](https://www.youtube.com/watch?v=5UKe5BMnJgk)
 
+# Why can’t browsers read JSX directly?
+
+- Browsers can only understand JavaScript. JSX is a syntax extension that mixes JavaScript with HTML-like syntax, but it is not valid JavaScript. Babel converts JSX into standard JavaScript that browsers can understand, which is why browsers can’t read JSX directly.
+
+# What are components in React?
+
+- A React component is a JavaScript function or class that returns UI (usually written in JSX).
+- Reusability – write once, use anywhere
+
+# What is the difference between functional and class components?
+
+## Functional Components
+
+- Written as JavaScript functions
+- Use Hooks (like useState, useEffect) for state and lifecycle
+- Shorter, cleaner, and easier to read
+- Recommended in modern React
+
+## Class Components
+
+- Written as ES6 classes
+- Use this.state and lifecycle methods (componentDidMount)
+- More code and more complex
+- Mostly old / legacy code now
+
+# What are props in React?
+- props are use for passing data parent component to child component .
+
+# What is state in React?
+
+- Manage and mentain the internal data in react.
+- State is local to the component
+- State can change
+- When state changes, React re-renders the component
+
+# Difference between state and props?
+
+
+| State                            | Props                             |
+| -------------------------------- | --------------------------------- |
+| Managed **inside** the component | Passed **from parent** to child   |
+| **Can be changed**               | **Read-only** (cannot be changed) |
+| Used for internal data           | Used to pass data                 |
+| Controlled by the component      | Controlled by parent              |
+
+# How do you update state in React?
+
+- State is updated using the setter function (setState or useState setter), and updating state causes the component to re-render.
+
+# Why should we not modify state directly?
+
+- Because React will not know that the state has changed, so the UI may not update.
+
+# What are React lifecycle methods?
+
+- React lifecycle methods are special methods that run at different stages of a component’s life, such as when it is created, updated, or removed.
+- Component lifecycle phases
+- Mounting – component is created and added to the DOM
+- Updating – component updates due to state or props change
+- Unmounting – component is removed from the DOM
+
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
