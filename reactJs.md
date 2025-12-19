@@ -400,13 +400,26 @@ Usage: It allows you to extract and use specific parts of the state stored in th
 - Updating – component updates due to state or props change
 - Unmounting – component is removed from the DOM
 
-# 
+# Basec 
 
+# 1. What is React?
 
+- React is a JavaScript library used to build user interfaces, especially for single page applications.
+- It helps us create reusable components and update the UI fast when data changes.
 
+# 2. What is Single Page Application (SPA)?
+- A Single Page Application is a web app where only one HTML page loads.After that, content changes without reloading the page.
+- In SPA, the page does not reload. Only the required data is updated dynamically.
+- ex:- gmail, facebook, insta
 
+# 3. Advantages of SPA (Very Important)
 
-
+- Fast performance – Page does not reload again and again
+- Better user experience – Smooth and responsive UI
+- Less server load – Only data is sent, not full page
+- Easy frontend-backend separation – Uses APIs
+- Works well on mobile apps – Same backend for web & mobile
+- “SPA is fast, provides a smooth user experience, and reduces server load.”
 
 
 
