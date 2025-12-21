@@ -422,6 +422,155 @@ Usage: It allows you to extract and use specific parts of the state stored in th
 - “SPA is fast, provides a smooth user experience, and reduces server load.”
 
 
+# What are Stateless Components ?
+
+- Stateless Components are components that do not manage their own state.
+They simply receive data via props and return UI based on that data.
+- In modern React, stateless components are usually functional components.
+
+# What are Pure Components ( IMP )
+
+- A Pure Component is a React component that prevents unnecessary re-renders by performing a shallow comparison of props and state.
+- If props or state don’t change, the component will not re-render.
+- Prevents unnecessary re-renders
+- Improves performance
+
+
+# Composable Components
+
+- Composable components are components that are designed to be combined together to create more complex UIs, where each component has a single responsibility and communicates through props and children.
+- Reusability ♻️
+- Maintainability 🧹
+- Scalability 📈
+- Cleaner architecture
+
+# Render Props
+
+- Render Props is a React pattern where a component shares logic with other components by using a function as a prop that returns React elements.
+- Logic in one component → UI decided by another
+
+# Fragments
+
+- React Fragments let you group multiple elements without adding extra nodes to the DOM.
+- They help keep the DOM clean while still allowing multiple JSX elements.
+
+# Keys in lists
+
+- Keys are special attributes in React that help identify which items in a list have changed, been added, or removed, allowing React to efficiently update the UI.
+
+# Why state should not be updated directly ( VIMP )
+
+- State should not be updated directly because React will not detect the change, which can lead to no re-render, UI bugs, and inconsistent application state.
+
+# Lifting state up
+
+- Lifting state up means moving shared state to the closest common parent component so that multiple child components can access and update the same data.
+
+# What is Prop Drilling
+
+# What is preventDefault()
+- preventDefault() is a method that stops the browser’s default behavior associated with an event.
+
+#  What are Controlled Components ( IMP )
+
+- Controlled components are form elements whose value is controlled by React state, making React the single source of truth.
+# What are Uncontrolled Components
+- Uncontrolled components are form elements where the DOM manages the form data, not React state. React accesses the values using refs.
+
+# Refs vs controlled inputs
+
+- Controlled Inputs → Input value is controlled by React state
+- Refs (Uncontrolled Inputs) → Input value is controlled by the DOM, accessed via ref
+
+
+# IMP - Hooks ( only which are frequently asked in interviews )
+
+# useState
+- useState allows functional components to manage local state.
+- State updates trigger re-render
+- Never mutate state directly
+
+2. useEffect
+- useEffect is used to handle side effects in React components.
+- Examples:
+- API calls
+-Subscriptions
+- Timers
+- DOM updates
+
+# Dependency array
+
+- Dependency Array	Behavior
+- []	Runs once
+- [value]	Runs when value changes
+- No array	Runs on every render
+
+# useRef
+- useRef provides a mutable reference that does not trigger re-render.
+- Access DOM
+- Store previous values
+- Avoid re-render
+
+# useMemo
+- useMemo memoizes computed values to avoid unnecessary recalculations.
+- Used for
+- Expensive calculations
+- Performance optimization
+
+# useCallback
+- useCallback prevents function recreation on every render.
+- useCallback memoizes a function reference.
+- Used for
+- Preventing child re-renders
+- Passing callbacks to memoized components
+
+# useContext
+
+- useContext allows access to context data without prop drilling.
+
+# Custom Hooks/ What are rules of hooks
+- A custom hook is a reusable function that uses other hooks.
+- Rules of Hooks
+- Call hooks only at top level
+- Call hooks only inside React functions
+- Don’t call hooks conditionally or in loops
+
+#  When NOT to Use useMemo / useCallback (VIMP)
+- ❌ Don’t use when:
+- Computation is cheap
+- Component is small
+- No performance issue
+- Premature optimization
+
+- ⚠️ Why?
+- Adds complexity
+- Uses extra memory
+- Can reduce readability
+- ⭐ One-liner:
+- useMemo and useCallback should be used only for real performance optimizations, not by default.
+- Final Interview Tip (Must Say)
+- I use useMemo and useCallback selectively, only when there is a clear performance benefit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
