@@ -644,6 +644,165 @@ In React
 - Lazy rendering improves initial load time by loading components on demand.
 
 
+# Code Splitting
+- Code splitting breaks a large JavaScript bundle into smaller chunks that are loaded on demand.
+- Why it matters
+- Faster initial load
+- Better performance
+- Optimized resource usage
+- ⭐ One-liner:
+- Code splitting improves performance by loading only the required JavaScript.
+
+# React.lazy (IMP)
+- React.lazy allows you to dynamically import components for code splitting.
+- `const Dashboard = React.lazy(() => import("./Dashboard"));`
+- Key Points
+- Works with dynamic import()
+- Used for lazy loading components
+- ⭐ One-liner:
+- React.lazy enables dynamic imports for lazy loading components.
+
+
+# Suspense 
+- Suspense lets you show a fallback UI while a lazy-loaded component is loading.
+
+- `
+<Suspense fallback={<Loader />}>
+  <Dashboard />
+</Suspense>
+`
+- Key Points
+- Shows loader/spinner
+- Required with React.lazy
+- ⭐ One-liner:
+- Suspense displays fallback content while lazy-loaded components load.
+
+# Route-Level Lazy Loading 
+- Loads entire pages/routes only when the route is visited.
+- Major performance improvement
+- Best for large applications
+
+# Component-Level Lazy Loading
+- Lazy loading specific heavy components inside a page.
+- Use cases
+- Modals
+- Charts
+- Dashboards
+
+# Image Lazy Loading
+- Loads images only when they enter the viewport.
+- Faster page load
+- Reduced bandwidth usage
+
+# Routing
+
+# Client-Side Routing
+
+- Client-side routing enables fast navigation by updating the UI without reloading the page.
+- Browser URL changes
+- React updates the view
+- No server request for new HTML
+
+# React Router
+- React Router is a popular library used to implement client-side routing in React applications.
+
+# Nested Routes (IMP)
+- Nested routes allow rendering child routes inside a parent route using <Outlet />.
+
+# Route-Based Code Splitting
+- Route-based code splitting loads route components only when the route is accessed.
+### Benefits
+- Smaller initial bundle
+- Faster first load
+- Better performance
+- Route-based code splitting improves performance by lazy loading route components.
+
+# Context API
+- Context API is a built-in React feature used to share data globally without passing props manually at every level.
+- How it works
+- Create Context
+- Wrap app with Provider
+- Consume data using useContext
+- Limit
+- Not ideal for frequently changing or complex state
+
+# Redux Basics
+- Redux is a predictable state management library that stores all global state in a single store.
+- Core concepts
+- Store → holds state
+- Action → describes what happened
+- Reducer → updates state based on action
+- `UI → dispatch(action) → reducer → store → UI
+`
+
+# Redux Toolkit (RTK) – IMP
+- Redux Toolkit is the official, recommended way to write Redux with less boilerplate.
+- Less code
+- Built-in best practices
+- Uses Immer (allows “mutable” syntax safely)
+
+# When NOT to Use Redux (IMP)
+- ❌ Don’t use Redux when:
+- App is small
+- State is local to a few components
+- Context + hooks are enough
+- Why
+- Adds complexity
+- Extra boilerplate
+- Learning overhead
+- ⭐ One-liner:
+- Redux should be used only when state is complex, shared, and hard to manage with props or context.
+
+# Concurrent Rendering
+
+- Concurrent Rendering allows React to prepare multiple versions of the UI at the same time and pause, resume, or discard renders to keep the app responsive.
+- Prevents UI blocking
+- Keeps app responsive during heavy updates
+- Improves user experience
+- Simple example
+- Typing in input should stay smooth even when large lists update
+- ⭐ One-liner:
+- Concurrent rendering allows React to interrupt rendering to keep the UI responsive.
+
+# Automatic Batching (VIMP)
+- React 18 automatically groups multiple state updates into one re-render, even in async code.
+- Before React 18
+- Batching only in event handlers
+- React 18
+- Batching everywhere (timeouts, promises, async)
+
+# Streaming SSR (IMP)
+- Streaming Server-Side Rendering sends HTML to the browser in chunks instead of waiting for the full page.
+- Faster first content display
+- Better performance on slow networks
+- Used with
+- Suspense on the server
+- ⭐ One-liner:
+- Streaming SSR improves page load time by sending HTML in chunks.
+
+# Shadow DOM
+- Shadow DOM is a browser feature that allows a component to have its own isolated DOM tree, separate from the main DOM.
+- Key Point
+- Styles inside Shadow DOM don’t leak out
+- External styles don’t affect it
+- ⭐ One-liner:
+- Shadow DOM provides DOM and style encapsulation for components.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
