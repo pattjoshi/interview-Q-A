@@ -552,40 +552,96 @@ They simply receive data via props and return UI based on that data.
 - I use useMemo and useCallback selectively, only when there is a clear performance benefit.
 
 
+# Lifecycle ( VVIMP )
+
+# React Component Lifecycle (VVIMP)
+
+- The component lifecycle describes the different stages a React component goes through from creation to removal from the DOM.
+- Component Lifecycle Phases
+- React has 3 main lifecycle phases:
+- Mounting → Component is created and inserted into DOM
+- Updating → Component re-renders due to state/props changes
+- Unmounting → Component is removed from DOM
+
+# Error Boundaries (VVIMP)
+- Error Boundaries are React components that catch JavaScript errors in child components and display a fallback UI instead of crashing the app.
+- Key Points
+- Catch errors during render, lifecycle methods, constructors
+- Do NOT catch errors in event handlers
+- Only class components can be error boundaries
+
+# Strict Mode (VVIMP)
+
+- React StrictMode is a development-only tool that helps identify unsafe lifecycle methods, side effects, and potential bugs.
+- Key Behaviors
+- Runs components twice (dev only)
+- Detects unsafe lifecycles
+- Highlights side effects
+- Warns about deprecated APIs
+
+# Reconciliation
+
+- Reconciliation is the process by which React updates the UI efficiently by comparing the previous Virtual DOM with the new Virtual DOM and applying the minimum required changes to the real DOM.
+- How Reconciliation Works (Step-by-Step)
+- State/props change
+- React creates a new Virtual DOM
+- React compares it with the previous Virtual DOM (diffing)
+- Calculates minimal updates
+- Updates only the affected parts of the real DOM
+
+# React.memo
+
+- React.memo optimizes functional components by avoiding re-renders when props haven’t changed.
+- Re-renders only if props change
+- Uses shallow comparison
+- Similar to PureComponent
+
+# Memoization (IMP)
+- Memoization is an optimization technique that caches results so expensive computations are not repeated.
+In React
+- useMemo → memoize values
+- useCallback → memoize functions
+- React.memo → memoize components
+
+# Throttling & Debouncing
+# Debouncing
+
+- Executes a function after a delay when events stop firing.
+- 📌 Use case:
+- Search input
+- API calls
+
+# Throttling
+- Executes a function at fixed intervals, no matter how often the event fires.
+- 📌 Use case:
+- Scroll
+- Resize
+- Button spam prevention
+
+| Debouncing           | Throttling              |
+| -------------------- | ----------------------- |
+| Executes after delay | Executes every interval |
+| Best for input       | Best for scroll         |
 
 
+# Virtualization (VVIMP)
 
+- Virtualization renders only visible items instead of the entire list, improving performance for large datasets.
+- Why it matters
+- Faster rendering
+- Less memory usage
+- Smooth scrolling
+### ⭐ One-liner:
+- Virtualization improves performance by rendering only visible items in large lists.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Lazy Rendering (IMP)
+- Lazy rendering loads components only when needed, reducing initial load time.
+- Use cases
+- Large pages
+- Routes
+- Heavy components
+### ⭐ One-liner:
+- Lazy rendering improves initial load time by loading components on demand.
 
 
 
