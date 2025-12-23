@@ -788,10 +788,22 @@ In React
 - ⭐ One-liner:
 - Shadow DOM provides DOM and style encapsulation for components.
 
+# Why Keys Should NOT Be Index (VVIMP)
+- Using array index as key can cause wrong UI updates when list items are added, removed, or reordered.
+- React uses keys to track item identity
+- Index changes when list order changes
+- Component state may get mixed up
 
-
-
-
+# Why useEffect Runs Twice in Strict Mode (VVIMP)
+- React Strict Mode intentionally runs effects twice in development to detect:
+- Side effects
+- Improper cleanup
+- Unsafe logic
+- Important
+- Only in development
+- Does NOT happen in production
+- ⭐ One-liner:
+- useEffect runs twice in Strict Mode to help detect side-effect bugs.
 
 
 
