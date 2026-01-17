@@ -3,15 +3,11 @@
 # Why should you be hired for this role?
 
 ## Full Stack (MERN)
-- From what I understand, the key requirement for the role is to build an efficient Full Stack application. I'm deeply passionate about building quality web applications. 
-
-- I have experience in Full Stack (MERN) Applications including next.js and tailwind CSS.
-
-- I have hands-on experience in developing end-to-end web applications using these technologies.
-
-- Problem-solving abilities: I possess strong problem-solving skills and enjoy tackling complex challenges.
-
-- By leveraging my comprehensive knowledge of the MERN stack, proficiency in front-end and back-end development, problem-solving abilities, collaboration skills, and commitment to continuous learning, I am confident that I can make a valuable contribution to the full-stack development team.
+1. Developed and maintain front-end application by using React js.
+2. Developed REST API using FastAPI and PostgreSQL to store data.
+3. Designed and created database tables to store data according to our application’s need.
+4. Maintained documentation of our API, includes details about endpoint, request parameters and response formats.
+5. Used postman as a tool for API testing.
 
 ---
 # Why should you be hired for this role?
