@@ -216,7 +216,7 @@ console.log(marks());   // 100
 - === is the strict equality operator and does not perform type coercion, comparing both value and type.
 
 # 13. Spread operator:
-- The spread operator (...) allows an iterable (like an array or string) to be expanded into individual elements.
+- The JavaScript spread operator (...) copies all or part of an existing array or object into another array or object.
 - It is commonly used for creating shallow copies of arrays, merging arrays, and passing function arguments.
 
 # 14. Object destructuring:
